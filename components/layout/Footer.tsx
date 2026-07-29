@@ -13,7 +13,13 @@ export function Footer() {
           {/* Col 1 */}
           <div className="flex flex-col gap-6">
             <Link href="/" className="inline-block">
-              <span className="font-extrabold text-3xl tracking-tight text-white font-sans">MOYO</span>
+              <Image 
+                src="/logo-wide.svg" 
+                alt="MOYO Logo" 
+                width={160} 
+                height={50} 
+                className="w-auto h-10 -ml-2"
+              />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               Noida's premier multi-service marketplace. Connecting you with verified experts for all your home and professional needs.

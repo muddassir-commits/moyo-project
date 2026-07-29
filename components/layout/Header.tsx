@@ -22,7 +22,14 @@ export function Header() {
     <header className={`sticky top-0 z-50 w-full transition-all duration-300 ease-expo ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm border-b border-line' : 'bg-white/80 backdrop-blur-[12px] border-b border-gray-200/50'}`}>
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between transition-all duration-300 ease-expo ${scrolled ? 'h-16' : 'h-20'}`}>
         <Link href="/" className="flex items-center gap-2">
-          <span className="font-extrabold text-2xl tracking-tight text-brand font-sans">MOYO</span>
+          <Image 
+            src="/logo.svg" 
+            alt="MOYO Logo" 
+            width={120} 
+            height={40} 
+            className="w-auto h-8"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}
