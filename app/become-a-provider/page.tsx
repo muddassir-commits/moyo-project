@@ -124,7 +124,7 @@ export default function BecomeProviderPage() {
                   href={pillar.href}
                   className="p-4 rounded-[12px] bg-page border border-line hover:border-brand-200 hover:shadow-sm transition-all"
                 >
-                  <span className="block text-sm font-semibold text-ink">{pillar.title}</span>
+                  <span className="block text-sm font-semibold text-ink">{pillar.name}</span>
                 </Link>
               ))}
             </div>
