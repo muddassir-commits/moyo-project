@@ -5,6 +5,7 @@ import { StickyMobileCTA } from "@/components/layout/StickyMobileCTA";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CTABlock } from "@/components/ui/CTABlock";
 import { CONTACT } from "@/config/navigation";
+import { Phone, MessageCircle, Mail, MapPin } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = generateSeoMetadata({
@@ -81,7 +82,9 @@ export default function ContactPage() {
                 <div className="space-y-6 mb-12">
                   {!CONTACT.phone.includes("[") && (
                     <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-section-alt rounded-full flex items-center justify-center shrink-0 text-xl">📞</div>
+                      <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center shrink-0 text-brand">
+                        <Phone className="w-5 h-5" />
+                      </div>
                       <div>
                         <div className="font-semibold text-ink">Phone</div>
                         <div className="text-muted mt-1">{CONTACT.phone}</div>
@@ -91,7 +94,9 @@ export default function ContactPage() {
                   
                   {!CONTACT.whatsapp.includes("[") && (
                     <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-section-alt rounded-full flex items-center justify-center shrink-0 text-xl">💬</div>
+                      <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center shrink-0 text-brand">
+                        <MessageCircle className="w-5 h-5" />
+                      </div>
                       <div>
                         <div className="font-semibold text-ink">WhatsApp</div>
                         <div className="text-muted mt-1">Chat with us directly</div>
@@ -101,7 +106,9 @@ export default function ContactPage() {
                   
                   {!CONTACT.email.includes("[") && (
                     <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-section-alt rounded-full flex items-center justify-center shrink-0 text-xl">✉️</div>
+                      <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center shrink-0 text-brand">
+                        <Mail className="w-5 h-5" />
+                      </div>
                       <div>
                         <div className="font-semibold text-ink">Email</div>
                         <div className="text-muted mt-1">{CONTACT.email}</div>
@@ -111,7 +118,9 @@ export default function ContactPage() {
                   
                   {!CONTACT.street.includes("[") && (
                     <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-section-alt rounded-full flex items-center justify-center shrink-0 text-xl">🏢</div>
+                      <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center shrink-0 text-brand">
+                        <MapPin className="w-5 h-5" />
+                      </div>
                       <div>
                         <div className="font-semibold text-ink">Office Address</div>
                         <div className="text-muted mt-1 leading-relaxed">{CONTACT.street}, {CONTACT.city}, {CONTACT.state} {CONTACT.pin}</div>

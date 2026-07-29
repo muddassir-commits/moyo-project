@@ -203,10 +203,10 @@ export default function ServicesHub() {
                   <Link 
                     key={idx}
                     href={spec.href}
-                    className="flex flex-col items-center bg-white border border-line p-6 rounded-[12px] shadow-sm hover:border-brand hover:shadow-card transition-all w-full sm:w-80 group"
+                    className="flex flex-col items-center card-base card-hover p-6 w-full sm:w-80 group text-center"
                   >
                     <span className="font-bold text-ink text-lg mb-2 group-hover:text-brand transition-colors">{spec.name}</span>
-                    <span className="text-muted text-center text-sm">{spec.desc}</span>
+                    <span className="text-muted text-sm">{spec.desc}</span>
                   </Link>
                 ))}
               </div>

@@ -207,28 +207,28 @@ export default function DomesticHelpPage() {
               <h2 className="text-3xl md:text-4xl font-bold text-ink tracking-tight mb-4">Why Book Domestic Help on MOYO?</h2>
             </div>
             <StaggerGroup className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="p-8 rounded-[16px] bg-white border border-line shadow-sm hover:shadow-md hover:border-brand-200 transition-all">
-                <div className="text-brand text-3xl mb-4">✓</div>
+              <div className="p-8 card-base card-hover">
+                <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center text-brand text-xl font-black mb-6">✓</div>
                 <h3 className="text-xl font-bold text-ink mb-3">Verified before they enter</h3>
                 <p className="text-muted leading-relaxed">ID, address and reference checks in 48 hours — not "trust me" from an agent.</p>
               </div>
-              <div className="p-8 rounded-[16px] bg-white border border-line shadow-sm hover:shadow-md hover:border-brand-200 transition-all">
-                <div className="text-brand text-3xl mb-4">✓</div>
+              <div className="p-8 card-base card-hover">
+                <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center text-brand text-xl font-black mb-6">✓</div>
                 <h3 className="text-xl font-bold text-ink mb-3">You set the price</h3>
                 <p className="text-muted leading-relaxed">Bidding puts the rate in your hands. No fixed agent markup.</p>
               </div>
-              <div className="p-8 rounded-[16px] bg-white border border-line shadow-sm hover:shadow-md hover:border-brand-200 transition-all">
-                <div className="text-brand text-3xl mb-4">✓</div>
+              <div className="p-8 card-base card-hover">
+                <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center text-brand text-xl font-black mb-6">✓</div>
                 <h3 className="text-xl font-bold text-ink mb-3">Replacement, not restart</h3>
                 <p className="text-muted leading-relaxed">If your helper can't continue, request a replacement in-app instead of hunting again.</p>
               </div>
-              <div className="p-8 rounded-[16px] bg-white border border-line shadow-sm hover:shadow-md hover:border-brand-200 transition-all">
-                <div className="text-brand text-3xl mb-4">✓</div>
+              <div className="p-8 card-base card-hover">
+                <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center text-brand text-xl font-black mb-6">✓</div>
                 <h3 className="text-xl font-bold text-ink mb-3">Fair wages = help that stays</h3>
                 <p className="text-muted leading-relaxed">Workers keep more (no double commission), so they stick around longer. Lower turnover for you.</p>
               </div>
-              <div className="p-8 rounded-[16px] bg-white border border-line shadow-sm hover:shadow-md hover:border-brand-200 transition-all">
-                <div className="text-brand text-3xl mb-4">✓</div>
+              <div className="p-8 card-base card-hover">
+                <div className="w-12 h-12 bg-brand-50 rounded-full flex items-center justify-center text-brand text-xl font-black mb-6">✓</div>
                 <h3 className="text-xl font-bold text-ink mb-3">Everything in one app</h3>
                 <p className="text-muted leading-relaxed">Maid today, cook next week, electrician next month — same verified platform, same account.</p>
               </div>

@@ -39,8 +39,11 @@ export default function AboutPage() {
 
         {/* Hero Section */}
         <section className="bg-brand text-white py-20 md:py-32 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-white/10 rounded-full blur-[100px] pointer-events-none translate-x-1/3 -translate-y-1/3" />
+          <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-black/10 rounded-full blur-[100px] pointer-events-none -translate-x-1/3 translate-y-1/3" />
+          
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">About MOYO — Helping Homes, Creating Work</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">About MOYO — Helping Homes, Creating Work</h1>
             <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
               We connect Noida families with verified professionals across 170+ services, built on a bidding model that's fair to customers and workers alike.
             </p>
@@ -70,17 +73,17 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-ink mb-12">Helping Homes. Creating Work. Changing Lives.</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {/* Stats added for placeholder layout */}
-              <div className="p-8 bg-white rounded-[16px] border border-line shadow-sm">
+              <div className="p-8 card-base card-hover flex flex-col items-center justify-center text-center">
                 <div className="text-4xl font-black text-brand mb-2">170+</div>
                 <div className="text-ink font-semibold">Services Live</div>
                 <p className="text-muted text-sm mt-2">Everything from deep cleaning to AC repair in one app.</p>
               </div>
-              <div className="p-8 bg-white rounded-[16px] border border-line shadow-sm">
+              <div className="p-8 card-base card-hover flex flex-col items-center justify-center text-center">
                 <div className="text-4xl font-black text-brand mb-2">15,000+</div>
                 <div className="text-ink font-semibold">Homes Served</div>
                 <p className="text-muted text-sm mt-2">Trusted by thousands of families across Noida.</p>
               </div>
-              <div className="p-8 bg-white rounded-[16px] border border-line shadow-sm">
+              <div className="p-8 card-base card-hover flex flex-col items-center justify-center text-center">
                 <div className="text-4xl font-black text-brand mb-2">4,500+</div>
                 <div className="text-ink font-semibold">Verified Pros</div>
                 <p className="text-muted text-sm mt-2">Rigorous 48-hour background and skill verification.</p>
