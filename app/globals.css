@@ -50,6 +50,8 @@
   
   --shadow-card: var(--card-shadow);
   --shadow-cardHover: var(--card-hover-shadow);
+
+  --ease-expo: var(--ease-expo);
 }
 
 html, body {
