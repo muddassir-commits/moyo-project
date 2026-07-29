@@ -96,7 +96,7 @@ html, body {
 }
 
 @utility card-hover {
-  @apply hover:-translate-y-1 hover:border-brand-200 hover:shadow-cardHover transition-all duration-300 ease-expo;
+  @apply hover:-translate-y-1 hover:border-brand/30 hover:shadow-cardHover transition-all duration-300 ease-expo;
 }
 
 @utility btn-primary {
