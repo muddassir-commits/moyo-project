@@ -13,7 +13,17 @@ export function CTABlock({
   secondaryCta = { label: "Chat on WhatsApp", href: "https://wa.me/919876543210" }
 }: CTABlockProps) {
   return (
-    <section className="bg-gradient-to-br from-brand to-brand-deep py-16 md:py-24 relative overflow-hidden">
+    <section 
+      className="bg-gradient-to-br from-brand via-brand-deep to-brand py-16 md:py-24 relative overflow-hidden"
+      style={{ backgroundSize: '200% 200%', animation: 'gradient 8s ease infinite' }}
+    >
+      <style>{`
+        @keyframes gradient {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+      `}</style>
       {/* Decorative background elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-white/10 rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-black/10 rounded-full blur-[100px] pointer-events-none" />

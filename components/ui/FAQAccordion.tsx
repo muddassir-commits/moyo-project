@@ -56,14 +56,14 @@ export function FAQAccordion({ faqs }: FAQAccordionProps) {
           return (
             <div 
               key={index} 
-              className={`border border-line rounded-[16px] bg-white overflow-hidden transition-all duration-300 ease-expo ${isOpen ? 'shadow-cardHover border-brand-200' : 'shadow-card hover:border-brand-200'}`}
+              className={`border rounded-[16px] bg-white overflow-hidden transition-all duration-300 ease-expo ${isOpen ? 'shadow-cardHover border-brand ring-1 ring-brand/20' : 'border-line shadow-card hover:border-brand-200'}`}
             >
               <button
-                className="w-full flex items-center justify-between py-6 px-6 md:px-8 text-left focus:outline-none"
+                className="w-full flex items-center justify-between py-6 px-6 md:px-8 text-left focus:outline-none group"
                 onClick={() => toggle(index)}
                 aria-expanded={isOpen}
               >
-                <span className="font-semibold text-ink text-lg pr-8">{faq.q}</span>
+                <span className={`font-semibold text-lg pr-8 transition-colors ${isOpen ? 'text-brand' : 'text-ink group-hover:text-brand-deep'}`}>{faq.q}</span>
                 <span className={`flex-shrink-0 text-brand transition-transform duration-300 ease-expo bg-brand-50 p-2 rounded-full ${isOpen ? 'rotate-180 bg-brand text-white' : ''}`}>
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />

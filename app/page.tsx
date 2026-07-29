@@ -182,15 +182,18 @@ export default function Home() {
         {/* Reviews Section Temporarily Hidden */}
 
         {/* Section 9: Earn with MOYO */}
-        <section className="py-16 bg-brand-50 border-y border-brand-200">
-          <Reveal className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center gap-6">
-            <h2 className="text-4xl md:text-[44px] font-bold text-ink tracking-tight mb-4">Are you a skilled <span className="text-brand">professional?</span></h2>
-            <p className="text-lg text-muted">
+        <section className="py-24 bg-section-dark relative overflow-hidden border-y border-line">
+          {/* Decorative faint glow */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-brand/5 rounded-full blur-[120px] pointer-events-none" />
+          
+          <Reveal className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center gap-6 relative z-10">
+            <h2 className="text-4xl md:text-[44px] font-bold text-white tracking-tight mb-4">Are you a skilled <span className="text-brand">professional?</span></h2>
+            <p className="text-lg text-gray-400">
               Earn on your terms with MOYO — fair pay, no commission trap, work near you in Noida.
             </p>
             <Link 
               href="/become-a-provider"
-              className="inline-flex items-center justify-center btn-primary min-h-[48px] px-8 font-medium mt-2"
+              className="inline-flex items-center justify-center bg-white text-ink hover:bg-page min-h-[48px] px-8 font-bold rounded-full mt-2 transition-all duration-300 ease-expo shadow-sm hover:shadow-cardHover hover:-translate-y-1"
             >
               Become a Provider
             </Link>
