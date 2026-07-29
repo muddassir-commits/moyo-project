@@ -8,10 +8,10 @@ interface HeroProps {
   subhead: string;
   primaryCta?: { label: string; href: string };
   secondaryCta?: { label: string; href: string };
-  trustChips?: string[];
+  trustChips?: (string | { text: string; icon: React.ReactNode })[];
   image: string;
   isMockup?: boolean;
-  floatingBadges?: { text: string; icon: string; positionClass: string }[];
+  floatingBadges?: { text: string; icon: React.ReactNode; positionClass: string }[];
 }
 
 export function Hero({
@@ -19,7 +19,11 @@ export function Hero({
   subhead,
   primaryCta = { label: "Download the App", href: "https://app.moyointernational.com" },
   secondaryCta = { label: "Chat on WhatsApp", href: "https://wa.me/919876543210" },
-  trustChips = ["✓ Verified Experts", "⚡ Instant Booking", "⭐ 4.8/5 Average Rating"],
+  trustChips = [
+    { text: "Verified Experts", icon: null },
+    { text: "Instant Booking", icon: null },
+    { text: "4.8/5 Average Rating", icon: null }
+  ],
   image,
   isMockup = false,
   floatingBadges,
@@ -30,8 +34,11 @@ export function Hero({
   return (
     <section className="relative bg-hero pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden">
       {/* Decorative blobs */}
-      <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-brand/10 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2 pointer-events-none animate-float" />
-      <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-amber/10 rounded-full blur-[120px] translate-x-1/3 translate-y-1/3 pointer-events-none animate-float-alt" />
+      <div className="absolute top-0 left-0 w-[800px] h-[800px] bg-brand/15 rounded-full blur-[120px] -translate-x-1/3 -translate-y-1/3 pointer-events-none animate-float" />
+      <div className="absolute bottom-0 right-0 w-[800px] h-[800px] bg-amber/20 rounded-full blur-[140px] translate-x-1/4 translate-y-1/4 pointer-events-none animate-float-alt" />
+      
+      {/* Subtle dot pattern texture */}
+      <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:24px_24px] opacity-30 pointer-events-none mix-blend-multiply" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
@@ -50,11 +57,18 @@ export function Hero({
             </HeroStaggerItem>
             
             <HeroStaggerItem className="flex flex-wrap gap-4 mt-2">
-              {trustChips.map((chip, idx) => (
-                <span key={idx} className="inline-flex items-center gap-1.5 px-3 py-1 bg-white border border-line rounded-full text-sm font-medium text-ink shadow-sm">
-                  {chip}
-                </span>
-              ))}
+              {trustChips.map((chip, idx) => {
+                const isString = typeof chip === 'string';
+                const text = isString ? chip : chip.text;
+                const icon = isString ? null : chip.icon;
+                
+                return (
+                  <span key={idx} className="inline-flex items-center gap-1.5 px-3 py-1 bg-white border border-line rounded-full text-sm font-medium text-ink shadow-sm">
+                    {icon && <span className="text-brand flex items-center justify-center">{icon}</span>}
+                    {text}
+                  </span>
+                );
+              })}
             </HeroStaggerItem>
 
             <HeroStaggerItem className="flex flex-col sm:flex-row gap-4 mt-4">
@@ -103,7 +117,7 @@ export function Hero({
                 delay={idx * 0.4}
                 className={`absolute z-20 flex items-center gap-2 px-4 py-3 bg-white rounded-full shadow-cardHover border border-line ${badge.positionClass}`}
               >
-                <span className="text-xl" aria-hidden="true">{badge.icon}</span>
+                <div className="w-8 h-8 rounded-full bg-brand-50 flex items-center justify-center text-brand shrink-0" aria-hidden="true">{badge.icon}</div>
                 <span className="font-semibold text-ink text-sm tracking-wide">{badge.text}</span>
               </FloatingBadge>
             ))}

@@ -12,7 +12,7 @@ import { FAQAccordion } from "@/components/ui/FAQAccordion";
 import { LocalBusinessJsonLd } from "@/components/seo/LocalBusinessJsonLd";
 import Link from "next/link";
 import Script from "next/script";
-import { Home as HomeIcon, ShieldCheck, Star, MapPin, Search, HandCoins, UserCheck, Smartphone, IndianRupee, Tag, MapPinned, LayoutGrid } from "lucide-react";
+import { Home as HomeIcon, ShieldCheck, Star, MapPin, Search, HandCoins, UserCheck, Smartphone, IndianRupee, Tag, MapPinned, LayoutGrid, CheckCircle2, Zap, Clock } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
 import { StaggerGroup } from "@/components/motion/StaggerGroup";
 
@@ -49,17 +49,17 @@ export default function Home() {
           h1={<>Book Verified Professionals for <span className="text-brand">170+ Home Services</span> in Noida</>}
           subhead="One app for your whole home — maids, cleaners, electricians, beauticians, tutors and 170+ more. Every professional is ID-verified. And with bidding, you set the price you want to pay."
           trustChips={[
-            "✓ 170+ Services",
-            "✓ Verified Experts",
-            "✓ You Set the Price (Bidding)",
-            "✓ Serving all of Noida"
+            { text: "170+ Services", icon: <CheckCircle2 className="w-4 h-4" /> },
+            { text: "Verified Experts", icon: <ShieldCheck className="w-4 h-4" /> },
+            { text: "You Set the Price", icon: <HandCoins className="w-4 h-4" /> },
+            { text: "Serving all of Noida", icon: <MapPin className="w-4 h-4" /> }
           ]}
           image="/images/hero-app-mockup.jpg"
           isMockup={true}
           floatingBadges={[
-            { text: "Verified Expert", icon: "🛡️", positionClass: "top-20 -left-6 md:-left-12" },
-            { text: "4.9★", icon: "⭐", positionClass: "bottom-40 -right-4 md:-right-8" },
-            { text: "Under 5 min", icon: "⚡", positionClass: "bottom-16 -left-4 md:-left-10" }
+            { text: "Verified Expert", icon: <ShieldCheck className="w-5 h-5" />, positionClass: "top-20 -left-6 md:-left-12" },
+            { text: "4.9 Average", icon: <Star className="w-5 h-5" />, positionClass: "bottom-40 -right-4 md:-right-8" },
+            { text: "Under 5 min", icon: <Clock className="w-5 h-5" />, positionClass: "bottom-16 -left-4 md:-left-10" }
           ]}
           primaryCta={{ label: "Download the App", href: "https://app.moyointernational.com" }}
           secondaryCta={{ label: "Book on WhatsApp", href: "https://wa.me/919876543210" }}

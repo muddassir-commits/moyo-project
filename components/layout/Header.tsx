@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { MAIN_NAV } from "@/config/navigation";
@@ -9,6 +10,7 @@ export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -57,7 +59,13 @@ export function Header() {
               ) : (
                 <Link 
                   href={item.href}
-                  className="text-muted font-medium hover:text-brand transition-colors py-2"
+                  className={`relative font-medium py-2 transition-colors duration-300 ${
+                    pathname === item.href 
+                      ? 'text-brand' 
+                      : 'text-muted hover:text-brand'
+                  } after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] after:bg-brand after:origin-left after:transition-transform after:duration-300 ${
+                    pathname === item.href ? 'after:scale-x-100' : 'after:scale-x-0 hover:after:scale-x-100'
+                  }`}
                 >
                   {item.name}
                 </Link>
