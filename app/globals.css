@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+:root {
+  --background: #FEFCFA;
+  --foreground: #111827;
+
+  --brand: #FF9900;
+  --brand-hover: #E68800;
+  --brand-deep: #EA580C;
+  --amber: #FBBF24;
+
+  --page-bg: #FEFCFA;
+  --hero-bg: #FFF6EC;
+  --section-alt: #FDF8F3;
+  --section-dark: #0A0A0A;
+
+  --card-bg: #FFFFFF;
+  --card-border: #F3F4F6;
+  --card-hover-border: #FED7AA;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  --card-hover-shadow: 0 12px 30px -10px rgba(255,153,0,0.15);
+
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-muted: #9CA3AF;
+
+  --header-bg: rgba(255,255,255,0.78);
+  --header-border: rgba(229,231,235,0.5);
+  --divider: rgba(255,153,0,0.08);
+  --ease-expo: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@theme inline {
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-deep: var(--brand-deep);
+  --color-amber: var(--amber);
+  
+  --color-page: var(--page-bg);
+  --color-section: var(--section-alt);
+  --color-hero: var(--hero-bg);
+  --color-section-dark: var(--section-dark);
+  
+  --color-ink: var(--text-primary);
+  --color-muted: var(--text-secondary);
+  --color-faint: var(--text-muted);
+  --color-line: var(--card-border);
+
+  --font-sans: var(--font-inter), "Geist", sans-serif;
+  
+  --shadow-card: var(--card-shadow);
+  --shadow-cardHover: var(--card-hover-shadow);
+}
+
+html, body {
+  background: var(--page-bg);
+  color: var(--text-primary);
+  font-family: var(--font-inter), "Geist", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-48%, -52%) scale(1.05);
+  }
+}
+
+@keyframes float-alt {
+  0%, 100% {
+    transform: translate(33%, 33%) scale(1);
+  }
+  50% {
+    transform: translate(31%, 35%) scale(0.95);
+  }
+}
+
+.animate-float {
+  animation: float 12s ease-in-out infinite;
+}
+
+.animate-float-alt {
+  animation: float-alt 10s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float, .animate-float-alt {
+    animation: none !important;
+  }
+}

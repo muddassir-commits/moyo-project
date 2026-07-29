@@ -1,0 +1,1010 @@
+[
+  {
+    "id": 257,
+    "name": "Maid",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "maid service in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 255,
+    "name": "Cook",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "cook for home Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 260,
+    "name": "Nanny",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "nanny in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 258,
+    "name": "Babysitter",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "babysitter in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 254,
+    "name": "Chef",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "chef for home Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 459,
+    "name": "All Rounder Helper",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "all rounder house help Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 460,
+    "name": "Japa (Post-Partum)",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "japa maid Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 269,
+    "name": "Gardener",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "gardener in Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 267,
+    "name": "Pet Trainer",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "pet trainer Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 485,
+    "name": "Animal Caretaker",
+    "category": "Domestic Care",
+    "pillar": 1,
+    "keyword": "animal caretaker Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 389,
+    "name": "Bathroom Cleaner",
+    "category": "Cleaning",
+    "pillar": 2,
+    "keyword": "bathroom cleaning Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 396,
+    "name": "Pest Control Expert",
+    "category": "Cleaning",
+    "pillar": 2,
+    "keyword": "pest control in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 391,
+    "name": "Kitchen Cleaner",
+    "category": "Cleaning",
+    "pillar": 2,
+    "keyword": "kitchen cleaning Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 392,
+    "name": "Window/Door Cleaner",
+    "category": "Cleaning",
+    "pillar": 2,
+    "keyword": "window cleaning Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 397,
+    "name": "Water Tank Cleaner",
+    "category": "Cleaning",
+    "pillar": 2,
+    "keyword": "water tank cleaning Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 393,
+    "name": "Balcony Cleaner",
+    "category": "Cleaning",
+    "pillar": 2,
+    "keyword": "balcony cleaning Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 395,
+    "name": "Garage Cleaner",
+    "category": "Cleaning",
+    "pillar": 2,
+    "keyword": "garage cleaning Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 394,
+    "name": "Staircase Cleaner",
+    "category": "Cleaning",
+    "pillar": 2,
+    "keyword": "staircase cleaning Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 270,
+    "name": "AC Technician",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "AC repair service Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 273,
+    "name": "Electrician",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "electrician in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 279,
+    "name": "Plumber",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "plumber in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 286,
+    "name": "Washing Machine Repair",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "washing machine repair Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 281,
+    "name": "Refrigerator Mechanic",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "fridge repair Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 284,
+    "name": "TV Technician",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "TV repair Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 275,
+    "name": "Fan Technician",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "fan repair Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 277,
+    "name": "Light Technician",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "light fitting Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 509,
+    "name": "Stove Repair",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "gas stove repair Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 510,
+    "name": "Bike Service",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "bike service at home Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 511,
+    "name": "Car Service",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "car service at home Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 513,
+    "name": "Gadget Repair",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "gadget repair Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 276,
+    "name": "Lift Technician",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "lift technician Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 508,
+    "name": "Toy Repair",
+    "category": "Repair",
+    "pillar": 3,
+    "keyword": "toy repair Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 265,
+    "name": "Sofa Cleaning",
+    "category": "Fabric Care",
+    "pillar": 4,
+    "keyword": "sofa cleaning Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 263,
+    "name": "Washing & Ironing",
+    "category": "Fabric Care",
+    "pillar": 4,
+    "keyword": "washing ironing service Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 262,
+    "name": "Dhobi",
+    "category": "Fabric Care",
+    "pillar": 4,
+    "keyword": "dhobi near me Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 264,
+    "name": "Shoe Cleaning",
+    "category": "Fabric Care",
+    "pillar": 4,
+    "keyword": "shoe cleaning Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 506,
+    "name": "Makeup Artist",
+    "category": "Beauty & Grooming",
+    "pillar": 5,
+    "keyword": "makeup artist in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 50,
+    "name": "Mehendi Artist",
+    "category": "Beauty & Grooming",
+    "pillar": 5,
+    "keyword": "mehendi artist in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 54,
+    "name": "Beautician",
+    "category": "Beauty & Grooming",
+    "pillar": 5,
+    "keyword": "beautician at home Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 52,
+    "name": "Massage Therapist",
+    "category": "Beauty & Grooming",
+    "pillar": 5,
+    "keyword": "massage at home Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 49,
+    "name": "Hair Stylist",
+    "category": "Beauty & Grooming",
+    "pillar": 5,
+    "keyword": "hair stylist at home Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 51,
+    "name": "Nail Artist",
+    "category": "Beauty & Grooming",
+    "pillar": 5,
+    "keyword": "nail artist Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 244,
+    "name": "Nurse",
+    "category": "Health Care",
+    "pillar": 6,
+    "keyword": "nurse at home Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 492,
+    "name": "Physiotherapist",
+    "category": "Health Care",
+    "pillar": 6,
+    "keyword": "physiotherapist at home Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 361,
+    "name": "Elderly Caretaker",
+    "category": "Health Care",
+    "pillar": 6,
+    "keyword": "elderly care at home Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 224,
+    "name": "Gym Trainer",
+    "category": "Fitness",
+    "pillar": 7,
+    "keyword": "gym trainer Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 232,
+    "name": "Yoga Instructor",
+    "category": "Fitness",
+    "pillar": 7,
+    "keyword": "yoga instructor at home Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 225,
+    "name": "Dietitian",
+    "category": "Fitness",
+    "pillar": 7,
+    "keyword": "dietitian in Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 206,
+    "name": "Sports Coach",
+    "category": "Sports",
+    "pillar": 7,
+    "keyword": "sports coach Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 227,
+    "name": "Meditation Coach",
+    "category": "Fitness",
+    "pillar": 7,
+    "keyword": "meditation coach Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 208,
+    "name": "Sports Partner",
+    "category": "Sports",
+    "pillar": 7,
+    "keyword": "sports partner Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 220,
+    "name": "Umpire",
+    "category": "Sports",
+    "pillar": 7,
+    "keyword": "umpire on hire Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 217,
+    "name": "Team Coordinator",
+    "category": "Sports",
+    "pillar": 7,
+    "keyword": "team coordinator Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 212,
+    "name": "Referee",
+    "category": "Sports",
+    "pillar": 7,
+    "keyword": "referee on hire Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 59,
+    "name": "Primary Class Tutor",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "primary class tutor Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 274,
+    "name": "Senior Secondary Tutor",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "senior secondary tutor Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 283,
+    "name": "Secondary Class Tutor",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "secondary tutor Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 285,
+    "name": "Upper Primary Tutor",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "upper primary tutor Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 58,
+    "name": "Special Educator",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "special educator Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 62,
+    "name": "Foreign Language Tutor",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "foreign language tutor Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 516,
+    "name": "Dance Teacher",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "dance teacher Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 517,
+    "name": "Music Teacher",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "music teacher Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 475,
+    "name": "Pre-Primary Tutor",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "pre primary tutor Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 57,
+    "name": "Graduation Level Tutor",
+    "category": "Education",
+    "pillar": 8,
+    "keyword": "graduation tutor Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 307,
+    "name": "Disc Jockey (DJ)",
+    "category": "Musical Performers",
+    "pillar": 9,
+    "keyword": "DJ for party Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 63,
+    "name": "Event Photographer",
+    "category": "Entertainment",
+    "pillar": 9,
+    "keyword": "event photographer Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 71,
+    "name": "Event Planner",
+    "category": "Entertainment",
+    "pillar": 9,
+    "keyword": "event planner Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 303,
+    "name": "Singer",
+    "category": "Musical Performers",
+    "pillar": 9,
+    "keyword": "singer for events Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 72,
+    "name": "Anchor",
+    "category": "Entertainment",
+    "pillar": 9,
+    "keyword": "anchor emcee Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 64,
+    "name": "Videographer",
+    "category": "Entertainment",
+    "pillar": 9,
+    "keyword": "videographer Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 69,
+    "name": "Waiter/Waitress",
+    "category": "Entertainment",
+    "pillar": 9,
+    "keyword": "waiter on hire Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 70,
+    "name": "Bartender",
+    "category": "Entertainment",
+    "pillar": 9,
+    "keyword": "bartender on hire Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 306,
+    "name": "Pianist",
+    "category": "Musical Performers",
+    "pillar": 9,
+    "keyword": "pianist for events Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 305,
+    "name": "Guitarist",
+    "category": "Musical Performers",
+    "pillar": 9,
+    "keyword": "guitarist for events Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 309,
+    "name": "Drummer",
+    "category": "Musical Performers",
+    "pillar": 9,
+    "keyword": "drummer for events Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 386,
+    "name": "Harmonium Player",
+    "category": "Musical Performers",
+    "pillar": 9,
+    "keyword": "harmonium player Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 493,
+    "name": "Dancer",
+    "category": "Entertainment",
+    "pillar": 9,
+    "keyword": "dancer for events Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 68,
+    "name": "Stage Artist",
+    "category": "Entertainment",
+    "pillar": 9,
+    "keyword": "stage artist Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 351,
+    "name": "Pandit",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "pandit for puja Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 346,
+    "name": "Astrologer",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "astrologer in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 353,
+    "name": "Tarot Card Reader",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "tarot card reader Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 349,
+    "name": "Numerologist",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "numerologist Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 348,
+    "name": "Katha Vachak",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "katha vachak Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 352,
+    "name": "Sikh Granthi",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "sikh granthi Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 347,
+    "name": "Imam",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "imam Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 350,
+    "name": "Palm Reader",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "palm reader Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 354,
+    "name": "Pastor",
+    "category": "Religious",
+    "pillar": 10,
+    "keyword": "pastor Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 366,
+    "name": "Personal Driver",
+    "category": "Transport",
+    "pillar": 11,
+    "keyword": "personal driver in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 370,
+    "name": "Travel Agent",
+    "category": "Travel Assistance",
+    "pillar": 11,
+    "keyword": "travel agent Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 364,
+    "name": "Chauffeur",
+    "category": "Transport",
+    "pillar": 11,
+    "keyword": "chauffeur on hire Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 365,
+    "name": "Commercial Vehicle Driver",
+    "category": "Transport",
+    "pillar": 11,
+    "keyword": "commercial driver Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 371,
+    "name": "Travel Support",
+    "category": "Travel Assistance",
+    "pillar": 11,
+    "keyword": "travel support Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 369,
+    "name": "Tour Guide",
+    "category": "Travel Assistance",
+    "pillar": 11,
+    "keyword": "tour guide Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 367,
+    "name": "Elderly Travel Support",
+    "category": "Travel Assistance",
+    "pillar": 11,
+    "keyword": "elderly travel support Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 378,
+    "name": "Painter",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "painter in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 375,
+    "name": "Carpenter",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "carpenter in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 382,
+    "name": "Tile Worker",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "tile fitting Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 374,
+    "name": "False Ceiling Worker",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "false ceiling work Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 383,
+    "name": "Waterproofing Worker",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "waterproofing services Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 294,
+    "name": "Interior Designer",
+    "category": "Corporate",
+    "pillar": 12,
+    "keyword": "interior designer in Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 377,
+    "name": "Mason",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "mason in Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 384,
+    "name": "Welder",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "welder in Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 379,
+    "name": "Polisher",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "floor polishing Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 373,
+    "name": "Fabricator",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "fabrication work Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 293,
+    "name": "Architect",
+    "category": "Corporate",
+    "pillar": 12,
+    "keyword": "architect in Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 376,
+    "name": "General Labour",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "construction labour Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 381,
+    "name": "Stone Worker",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "stone work Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 380,
+    "name": "Shuttering Carpenter",
+    "category": "Construction",
+    "pillar": 12,
+    "keyword": "shuttering carpenter Noida",
+    "intent": "LOW"
+  },
+  {
+    "id": 47,
+    "name": "Office Boy",
+    "category": "Office Support",
+    "pillar": 13,
+    "keyword": "office boy on hire Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 240,
+    "name": "Receptionist",
+    "category": "Office Support",
+    "pillar": 13,
+    "keyword": "receptionist hire Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 238,
+    "name": "Data Entry Operator",
+    "category": "Office Support",
+    "pillar": 13,
+    "keyword": "data entry operator Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 236,
+    "name": "Admin Assistant",
+    "category": "Office Support",
+    "pillar": 13,
+    "keyword": "admin assistant Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 312,
+    "name": "Security Guard",
+    "category": "Security Services",
+    "pillar": 14,
+    "keyword": "security guard Noida",
+    "intent": "HIGH"
+  },
+  {
+    "id": 317,
+    "name": "Bouncer",
+    "category": "Security Services",
+    "pillar": 14,
+    "keyword": "bouncer on hire Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 316,
+    "name": "Armed Guard",
+    "category": "Security Services",
+    "pillar": 14,
+    "keyword": "armed guard hire Noida",
+    "intent": "MED"
+  },
+  {
+    "id": 251,
+    "name": "Warehouse Labour",
+    "category": "Factory",
+    "pillar": 14,
+    "keyword": "warehouse labour supply Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 249,
+    "name": "Loader/Unloader",
+    "category": "Factory",
+    "pillar": 14,
+    "keyword": "loader unloader Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 250,
+    "name": "Packer",
+    "category": "Factory",
+    "pillar": 14,
+    "keyword": "packing staff Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 246,
+    "name": "Lifting Staff",
+    "category": "Factory",
+    "pillar": 14,
+    "keyword": "lifting staff Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 252,
+    "name": "Waste Mgmt Staff",
+    "category": "Factory",
+    "pillar": 14,
+    "keyword": "waste management staff Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 358,
+    "name": "Forklift Operator",
+    "category": "Machinery",
+    "pillar": 14,
+    "keyword": "forklift operator Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 357,
+    "name": "Crane Operator",
+    "category": "Machinery",
+    "pillar": 14,
+    "keyword": "crane operator Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 360,
+    "name": "JCB Operator",
+    "category": "Machinery",
+    "pillar": 14,
+    "keyword": "JCB operator Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 356,
+    "name": "CNC Operator",
+    "category": "Machinery",
+    "pillar": 14,
+    "keyword": "CNC operator Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 363,
+    "name": "Lathe Operator",
+    "category": "Machinery",
+    "pillar": 14,
+    "keyword": "lathe operator Noida",
+    "intent": "B2B"
+  },
+  {
+    "id": 355,
+    "name": "Boiler Operator",
+    "category": "Machinery",
+    "pillar": 14,
+    "keyword": "boiler operator Noida",
+    "intent": "B2B"
+  }
+]

@@ -1,0 +1,56 @@
+import Link from "next/link";
+import Image from "next/image";
+import { PILLARS } from "@/config/navigation";
+import { StaggerGroup, StaggerItem } from "@/components/motion/StaggerGroup";
+import { Reveal } from "@/components/motion/Reveal";
+
+export function CategoryGrid() {
+  return (
+    <section className="py-16 md:py-24 bg-page">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <Reveal className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-ink tracking-tight mb-4">Browse Services by Category</h2>
+          <p className="text-lg text-muted max-w-2xl mx-auto">From home repairs to professional consulting, find the exact expertise you need in Noida.</p>
+        </Reveal>
+
+        <StaggerGroup className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {PILLARS.map((pillar) => (
+            <StaggerItem key={pillar.href} className="flex flex-col">
+              <Link 
+                href={pillar.href}
+                className="group flex flex-col flex-1 bg-white rounded-[16px] border border-line overflow-hidden shadow-card hover:shadow-cardHover hover:border-brand-200 transition-all duration-300 ease-expo hover:-translate-y-1"
+              >
+                <div className="aspect-video relative bg-brand-50 w-full overflow-hidden flex items-center justify-center">
+                   <div className="absolute inset-0 bg-gradient-to-br from-brand/10 to-amber/20" />
+                   {/* Category Image */}
+                   <div className="relative z-10 w-20 h-20 bg-[#FFF7ED] rounded-full flex items-center justify-center p-4 group-hover:scale-110 transition-transform duration-500 ease-expo shadow-sm border border-brand/10">
+                     {pillar.image && (
+                       <Image 
+                         src={pillar.image} 
+                         alt={pillar.name}
+                         width={64}
+                         height={64}
+                         className="object-contain drop-shadow-sm"
+                       />
+                     )}
+                   </div>
+                </div>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="font-semibold text-lg text-ink group-hover:text-brand transition-colors mb-4 line-clamp-2">
+                    {pillar.name}
+                  </h3>
+                  <div className="mt-auto flex items-center justify-between text-sm text-brand-deep font-medium">
+                    {/* Using pillar keyword as anchor logic is handled contextually, but generic text for now */}
+                    <span className="capitalize">{pillar.href.replace('/', '').replace(/-/g, ' ')}</span>
+                    <span className="group-hover:translate-x-1 transition-transform ease-expo">→</span>
+                  </div>
+                </div>
+              </Link>
+            </StaggerItem>
+          ))}
+        </StaggerGroup>
+      </div>
+    </section>
+  );
+}
