@@ -34,7 +34,12 @@
   --color-brand: var(--brand);
   --color-brand-hover: var(--brand-hover);
   --color-brand-deep: var(--brand-deep);
+  --color-brand-50: #FFF6EC;
+  --color-brand-100: #FFEDD5;
+  --color-brand-200: #FED7AA;
+  
   --color-amber: var(--amber);
+  --color-amber-50: #FFFBEB;
   
   --color-page: var(--page-bg);
   --color-section: var(--section-alt);
