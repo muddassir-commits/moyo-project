@@ -1,9 +1,11 @@
+import { Download, Search, CalendarClock, UserCheck, Star } from "lucide-react";
+
 const STEPS = [
-  { num: "01", title: "Download", desc: "Get the Moyo app and create your account in seconds." },
-  { num: "02", title: "Choose", desc: "Select the service you need from our 170+ categories." },
-  { num: "03", title: "Set Price", desc: "Professionals bid for your job. You pick the best price." },
-  { num: "04", title: "Get Matched", desc: "A verified expert arrives at your doorstep." },
-  { num: "05", title: "Rate", desc: "Review your experience and keep our community trusted." },
+  { icon: <Download className="w-8 h-8" />, title: "Download", desc: "Get the Moyo app and create your account in seconds." },
+  { icon: <Search className="w-8 h-8" />, title: "Choose", desc: "Select the service you need from our 170+ categories." },
+  { icon: <CalendarClock className="w-8 h-8" />, title: "Set Price", desc: "Professionals bid for your job. You pick the best price." },
+  { icon: <UserCheck className="w-8 h-8" />, title: "Get Matched", desc: "A verified expert arrives at your doorstep." },
+  { icon: <Star className="w-8 h-8" />, title: "Rate", desc: "Review your experience and keep our community trusted." },
 ];
 
 export function StepsHowItWorks() {
@@ -21,8 +23,8 @@ export function StepsHowItWorks() {
           
           {STEPS.map((step, idx) => (
             <div key={idx} className="relative z-10 flex flex-col items-center text-center">
-              <div className="w-20 h-20 rounded-full bg-white border-[4px] border-brand flex items-center justify-center mb-6 shadow-cardHover font-bold text-2xl text-brand transform hover:scale-110 transition-transform duration-300 ease-expo">
-                {step.num}
+              <div className="w-20 h-20 rounded-full bg-[#FFF7ED] flex items-center justify-center mb-6 shadow-cardHover text-brand transform hover:scale-110 transition-transform duration-300 ease-expo">
+                {step.icon}
               </div>
               <h3 className="text-xl font-bold text-ink mb-3">{step.title}</h3>
               <p className="text-muted text-sm leading-relaxed max-w-[200px]">{step.desc}</p>

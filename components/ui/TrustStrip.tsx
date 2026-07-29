@@ -27,15 +27,15 @@ export function TrustStrip({ stats = [
       <section className="bg-section-alt border-y border-line py-12 md:py-16 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {validStats.length === 1 ? (
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6 p-8 bg-white border border-line rounded-[24px] shadow-sm max-w-3xl mx-auto">
-              <div className="w-16 h-16 bg-brand-50 rounded-full flex items-center justify-center text-brand">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6 p-8 bg-brand-50 border-y border-brand-100 rounded-2xl mx-auto max-w-4xl shadow-sm">
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center text-brand shadow-sm">
                 {validStats[0].icon}
               </div>
               <div className="text-center md:text-left flex flex-col">
-                <span className="text-4xl md:text-5xl font-extrabold text-ink tracking-tight">
+                <span className="text-4xl md:text-5xl font-extrabold text-brand tracking-tight">
                   <StatCounter value={validStats[0].number} />
                 </span>
-                <span className="text-sm font-semibold text-brand-deep uppercase tracking-widest mt-1">
+                <span className="text-sm font-semibold text-ink uppercase tracking-widest mt-1">
                   {validStats[0].label}
                 </span>
               </div>

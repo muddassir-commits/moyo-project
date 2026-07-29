@@ -12,7 +12,7 @@ import { FAQAccordion } from "@/components/ui/FAQAccordion";
 import { LocalBusinessJsonLd } from "@/components/seo/LocalBusinessJsonLd";
 import Link from "next/link";
 import Script from "next/script";
-import { Home as HomeIcon, ShieldCheck, Star, MapPin, Search, HandCoins, UserCheck, Smartphone, IndianRupee } from "lucide-react";
+import { Home as HomeIcon, ShieldCheck, Star, MapPin, Search, HandCoins, UserCheck, Smartphone, IndianRupee, Tag, MapPinned, LayoutGrid } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
 import { StaggerGroup } from "@/components/motion/StaggerGroup";
 
@@ -86,12 +86,12 @@ export default function Home() {
             
             <StaggerGroup className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { title: "Verified before they reach you", desc: "ID, address & reference checks in 48 hours. Not \"trust me\" from an agent.", icon: <UserCheck className="w-6 h-6" /> },
-                { title: "You set the price", desc: "Bidding puts the rate in your hands. Propose what you'll pay; the pro confirms.", icon: <HandCoins className="w-6 h-6" /> },
-                { title: "Fixed pricing, shown upfront", desc: "See the full price before you book. No surprises at the door.", icon: <IndianRupee className="w-6 h-6" /> },
-                { title: "Fair wages = help that stays", desc: "No double commission. Workers keep more, so quality stays high.", icon: <ShieldCheck className="w-6 h-6" /> },
-                { title: "Live tracking", desc: "Track your professional from dispatch to arrival, in real time.", icon: <MapPin className="w-6 h-6" /> },
-                { title: "One app, everything", desc: "Maid today, electrician next week, beautician for the wedding. Same account, same trust.", icon: <Smartphone className="w-6 h-6" /> }
+                { title: "Verified before they reach you", desc: "ID, address & reference checks in 48 hours. Not \"trust me\" from an agent.", icon: <ShieldCheck className="w-6 h-6" /> },
+                { title: "You set the price", desc: "Bidding puts the rate in your hands. Propose what you'll pay; the pro confirms.", icon: <IndianRupee className="w-6 h-6" /> },
+                { title: "Fixed pricing, shown upfront", desc: "See the full price before you book. No surprises at the door.", icon: <Tag className="w-6 h-6" /> },
+                { title: "Fair wages = help that stays", desc: "No double commission. Workers keep more, so quality stays high.", icon: <HandCoins className="w-6 h-6" /> },
+                { title: "Live tracking", desc: "Track your professional from dispatch to arrival, in real time.", icon: <MapPinned className="w-6 h-6" /> },
+                { title: "One app, everything", desc: "Maid today, electrician next week, beautician for the wedding. Same account, same trust.", icon: <LayoutGrid className="w-6 h-6" /> }
               ].map((diff, i) => (
                 <div key={i} className="p-8 card-base card-hover">
                   <div className="w-12 h-12 bg-[#FFF7ED] text-brand rounded-full flex items-center justify-center mb-6 border border-brand/10">

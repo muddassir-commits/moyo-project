@@ -24,14 +24,14 @@ export function CategoryGrid() {
                 <div className="aspect-video relative bg-brand-50 w-full overflow-hidden flex items-center justify-center">
                    <div className="absolute inset-0 bg-gradient-to-br from-brand/10 to-amber/20" />
                    {/* Category Image */}
-                   <div className="relative z-10 w-20 h-20 bg-[#FFF7ED] rounded-full flex items-center justify-center p-[14px] group-hover:scale-110 transition-transform duration-500 ease-expo shadow-sm border border-brand/10">
+                   <div className="relative z-10 w-[72px] h-[72px] md:w-20 md:h-20 bg-brand-50 rounded-full flex items-center justify-center p-[14px] group-hover:scale-110 transition-transform duration-500 ease-expo shadow-sm border border-brand/10">
                      {pillar.image && (
                        <Image 
                          src={pillar.image} 
                          alt={pillar.name}
-                         width={52}
-                         height={52}
-                         className="object-contain"
+                         width={80}
+                         height={80}
+                         className="w-full h-full object-contain"
                        />
                      )}
                    </div>

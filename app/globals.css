@@ -103,13 +103,13 @@ html, body {
 }
 
 @utility card-hover {
-  @apply hover:-translate-y-1 hover:border-brand/30 hover:shadow-cardHover transition-all duration-300 ease-expo;
+  @apply hover:-translate-y-1 hover:border-brand-200 hover:shadow-cardHover transition-all duration-300 ease-expo;
 }
 
 @utility btn-primary {
-  @apply bg-gradient-to-r from-brand to-brand-deep text-white rounded-[12px] shadow-sm hover:scale-[1.02] active:scale-[0.97] transition-transform ease-expo;
+  @apply flex items-center justify-center bg-gradient-to-r from-brand to-brand-deep text-white rounded-[12px] min-h-[44px] px-6 font-medium shadow-[0_6px_16px_-4px_rgba(255,153,0,0.4)] hover:scale-[1.02] hover:brightness-105 active:scale-[0.97] transition-all duration-300 ease-expo;
 }
 
 @utility btn-secondary {
-  @apply bg-white border-2 border-brand text-brand rounded-[12px] hover:bg-brand-50 active:scale-[0.97] transition-all ease-expo;
+  @apply flex items-center justify-center bg-white border-[1.5px] border-brand text-brand-deep rounded-[12px] min-h-[44px] px-6 font-medium hover:bg-brand-50 active:scale-[0.97] transition-all duration-300 ease-expo;
 }
