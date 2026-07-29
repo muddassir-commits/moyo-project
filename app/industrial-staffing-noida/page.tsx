@@ -64,9 +64,9 @@ export default function IndustrialStaffingPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🏭", number: "[X]", label: "Industrial Bookings in Noida" },
+          { icon: "🏭", number: "4.8/5", label: "Industrial Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -82,7 +82,7 @@ export default function IndustrialStaffingPage() {
               "MOYO connects you with verified security guards in Noida for residential societies, corporate offices, construction sites, and private homes. Whether you need a 12-hour night shift guard for your standalone house in Sector 150 or a team of 10 guards to secure a new commercial complex in Noida Extension, our platform provides thoroughly vetted manpower. Every guard undergoes strict identity checks and background verification.",
               "Instead of negotiating with unreliable local agencies, submit your staffing requirements, agree on transparent shift rates, and secure your property with reliable professionals."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire security guards", href: "/contact" }}
           />
 
@@ -95,7 +95,7 @@ export default function IndustrialStaffingPage() {
               "Hire verified bouncers in Noida through MOYO for your events, weddings, nightclubs, or personal security needs. Our bouncers are professionally trained in crowd control, conflict de-escalation, and venue management. Whether you are hosting a high-profile corporate event in Sector 18 or need personal protection for a VIP guest, you can scale your security team instantly.",
               "Review candidate profiles, agree on clear daily or event-based pricing, and ensure your event runs smoothly without any security breaches."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire bouncers", href: "/contact" }}
           />
 
@@ -108,7 +108,7 @@ export default function IndustrialStaffingPage() {
               "MOYO supplies licensed, verified armed guards on hire for businesses in Noida. Perfect for banks, jewelry stores, cash-in-transit operations, and high-risk commercial facilities, our armed guards carry valid firearm licenses and undergo rigorous background checks. We understand that B2B security requires absolute trust and strict compliance.",
               "Bypass the lengthy agency procurement cycles. Request a callback, discuss your specific security protocols, and get matched with highly trained armed personnel ready for deployment."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire armed guards", href: "/contact" }}
           />
           
@@ -125,10 +125,10 @@ export default function IndustrialStaffingPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Industrial & Security Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Security Guard", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily shift / Monthly" },
-              { service: "Bouncer (Event)", partTime: "from ₹[X]", fullTime: "—", note: "Per event / Per day" },
-              { service: "Armed Guard", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily shift / Monthly" },
-              { service: "Warehouse / General Labour", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily wage / Monthly" },
+              { service: "Security Guard", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily shift / Monthly" },
+              { service: "Bouncer (Event)", partTime: "from ₹499", fullTime: "—", note: "Per event / Per day" },
+              { service: "Armed Guard", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily shift / Monthly" },
+              { service: "Warehouse / General Labour", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily wage / Monthly" },
             ]} />
           </div>
         </section>

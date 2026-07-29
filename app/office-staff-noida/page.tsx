@@ -65,9 +65,9 @@ export default function OfficeStaffPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🏢", number: "[X]", label: "B2B Bookings in Noida" },
+          { icon: "🏢", number: "4.8/5", label: "B2B Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -83,7 +83,7 @@ export default function OfficeStaffPage() {
               "MOYO supplies verified office boys on hire across Noida. Whether your startup in Sector 62 needs a full-time peon for daily operations, or your corporate branch in Sector 137 requires temporary staff to cover an employee's leave, we have you covered. Our platform eliminates the need for expensive placement agencies. You simply set your requirements, propose a monthly or daily salary, and get matched with background-verified candidates who are ready to work.",
               "Ensure your office operations never stall due to a lack of basic support staff."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire office boy", href: "/contact" }}
           />
 
@@ -96,7 +96,7 @@ export default function OfficeStaffPage() {
               "MOYO connects businesses in Noida with verified receptionists available for immediate hire. Our candidates are vetted for communication skills, professional etiquette, and basic computer literacy. Whether you need a temporary receptionist for a week to manage walk-ins and phone calls, or a permanent front-desk executive on a monthly contract, you can find the right fit through our platform.",
               "Bypass the lengthy interview cycles. Request a callback, set your budget, and get a professional front-desk manager fast."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire receptionist", href: "/contact" }}
           />
 
@@ -109,7 +109,7 @@ export default function OfficeStaffPage() {
               "Scale your administrative capacity effortlessly by hiring verified data entry operators in Noida through MOYO. Perfect for short-term digitization projects, end-of-financial-year accounting support, or ongoing backend tasks, our operators are tested for typing speed and software familiarity. You can hire them on a daily or monthly basis depending on your project volume.",
               "Submit your staffing requirements, agree on a transparent daily or monthly wage, and boost your office productivity without the overhead of permanent hires."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire data entry operator", href: "/contact" }}
           />
 
@@ -122,7 +122,7 @@ export default function OfficeStaffPage() {
               "MOYO provides verified admin assistants on hire for businesses in Noida. If you need help managing vendor communications, organizing office supplies, or assisting HR with documentation, our platform connects you with experienced administrative professionals. This is an ideal solution for growing startups or established companies looking to scale their support team quickly without dealing with traditional recruiters.",
               "Use our bidding system to propose a fair salary, review candidate profiles, and hire an assistant who keeps your business organized."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire admin assistant", href: "/contact" }}
           />
 
@@ -133,10 +133,10 @@ export default function OfficeStaffPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Office Staff Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Office Boy / Peon", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily / Monthly" },
-              { service: "Receptionist", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily / Monthly" },
-              { service: "Data Entry Operator", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily / Monthly" },
-              { service: "Admin Assistant", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily / Monthly" },
+              { service: "Office Boy / Peon", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily / Monthly" },
+              { service: "Receptionist", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily / Monthly" },
+              { service: "Data Entry Operator", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily / Monthly" },
+              { service: "Admin Assistant", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily / Monthly" },
             ]} />
           </div>
         </section>

@@ -66,9 +66,9 @@ export default function HomeTutorPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "📚", number: "[X]", label: "Tuition Bookings in Noida" },
+          { icon: "📚", number: "4.8/5", label: "Tuition Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -84,7 +84,7 @@ export default function HomeTutorPage() {
               "MOYO provides verified home tutors in Noida who specialize in primary education. Our tutors don't just teach the syllabus; they use engaging, child-friendly methods to make learning enjoyable and effective. By providing one-on-one attention in the comfort of your home—whether you live in Sector 76 or Greater Noida West—the tutor can adapt to your child's specific learning pace.",
               "You can review the tutor's educational background and past parent reviews in the app before setting your monthly tuition rate."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book primary class tutor", href: "https://app.moyointernational.com" }}
           />
 
@@ -97,7 +97,7 @@ export default function HomeTutorPage() {
               "MOYO connects you with expert senior secondary tutors in Noida who specialize in specific streams—PCM, PCB, Commerce, and Humanities. Whether your child needs intensive coaching for Physics in Sector 62 or dedicated help with Accountancy in Noida Extension, we have qualified professionals ready to help. These tutors focus on conceptual clarity, board exam strategies, and regular assessments.",
               "Skip the commute to coaching centers and get personalized, high-level academic support directly at your home, with upfront pricing negotiated by you."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book senior secondary tutor", href: "https://app.moyointernational.com" }}
           />
 
@@ -110,7 +110,7 @@ export default function HomeTutorPage() {
               "MOYO offers specialized secondary class home tutors across Noida who understand the CBSE, ICSE, and state board curriculums inside out. They provide focused, one-on-one sessions that help students navigate difficult topics, practice previous years' papers, and build exam confidence.",
               "By hiring a verified home tutor, you ensure your child gets dedicated attention without the distractions of a group tuition class. Compare tutor profiles, read reviews from other Noida parents, and book the right fit for your child's academic success."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book secondary class tutor", href: "https://app.moyointernational.com" }}
           />
 
@@ -123,7 +123,7 @@ export default function HomeTutorPage() {
               "MOYO connects you with upper primary home tutors in Noida who can handle all major subjects—Math, Science, English, and Social Studies—for Classes 6 through 8. These verified educators focus on ensuring foundational concepts are clear before the academic load increases in high school.",
               "With flexible timings and at-home convenience, your child can learn in a safe, familiar environment. Use the MOYO app to set your budget, review tutor qualifications, and start personalized sessions in your sector."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book upper primary tutor", href: "https://app.moyointernational.com" }}
           />
 
@@ -136,7 +136,7 @@ export default function HomeTutorPage() {
               "MOYO connects Noida families with trained and certified special educators who understand these unique needs. These professionals use customized learning strategies to help children build cognitive skills, improve focus, and gain academic confidence at their own pace. We know trust is paramount here, which is why every special educator is strictly vetted and verified.",
               "You can find compassionate, qualified educators to provide safe, one-on-one support in the comfort of your home, ensuring your child receives the focused attention they deserve."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book special educator", href: "https://app.moyointernational.com" }}
           />
 
@@ -149,7 +149,7 @@ export default function HomeTutorPage() {
               "MOYO provides expert foreign language tutors in Noida for French, German, Spanish, and more. Skip the generic language apps and get real, conversational practice with a verified home tutor. They tailor the lessons to your goal—from passing school exams to achieving professional certification (like DELF or Goethe-Zertifikat).",
               "Book a tutor for yourself or your child, set your preferred schedule, and learn a new language effectively without leaving your house."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book foreign language tutor", href: "https://app.moyointernational.com" }}
           />
 
@@ -162,7 +162,7 @@ export default function HomeTutorPage() {
               "MOYO connects you with professional dance teachers in Noida offering at-home classes in Classical (Kathak, Bharatanatyam), Bollywood, Hip-Hop, and contemporary styles. Whether you need a choreographer for a family sangeet in Sector 137 or regular weekly classes for your kids, our verified instructors bring the rhythm to your living room.",
               "Set your budget in the app and find a passionate, skilled teacher who fits your schedule."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book dance teacher", href: "https://app.moyointernational.com" }}
           />
 
@@ -175,7 +175,7 @@ export default function HomeTutorPage() {
               "MOYO offers verified music teachers in Noida for vocal training (Hindustani classical or western), guitar, keyboard, and tabla. Our instructors range from classically trained musicians to contemporary artists. They come to your home, so you don't have to haul a keyboard or guitar across town.",
               "Whether it's for a beginner discovering music or an advanced student refining their technique, you can find the perfect music teacher through our bidding platform."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book music teacher", href: "https://app.moyointernational.com" }}
           />
           
@@ -192,10 +192,10 @@ export default function HomeTutorPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Home Tuition Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Primary Class (1-5)", partTime: "from ₹[X]", fullTime: "—", note: "Monthly / All subjects" },
-              { service: "Secondary Class (9-10)", partTime: "from ₹[X]", fullTime: "—", note: "Monthly / Per subject" },
-              { service: "Senior Secondary (11-12)", partTime: "from ₹[X]", fullTime: "—", note: "Monthly / Per subject" },
-              { service: "Language / Music / Dance", partTime: "from ₹[X]", fullTime: "—", note: "Monthly (fixed sessions)" },
+              { service: "Primary Class (1-5)", partTime: "from ₹499", fullTime: "—", note: "Monthly / All subjects" },
+              { service: "Secondary Class (9-10)", partTime: "from ₹499", fullTime: "—", note: "Monthly / Per subject" },
+              { service: "Senior Secondary (11-12)", partTime: "from ₹499", fullTime: "—", note: "Monthly / Per subject" },
+              { service: "Language / Music / Dance", partTime: "from ₹499", fullTime: "—", note: "Monthly (fixed sessions)" },
             ]} />
           </div>
         </section>
@@ -249,7 +249,7 @@ export default function HomeTutorPage() {
         {/* Section 10: FAQ */}
         <div className="px-4 sm:px-6 lg:px-8 bg-white">
           <FAQAccordion faqs={[
-            { q: "How much do home tutors charge in Noida?", a: "Pricing depends on the class and subject, starting from ₹[X]/month. You can set your specific requirement and propose a rate in the app." },
+            { q: "How much do home tutors charge in Noida?", a: "Pricing depends on the class and subject, starting from ₹499/month. You can set your specific requirement and propose a rate in the app." },
             { q: "Are tutors verified?", a: "Yes — every tutor undergoes strict ID, qualification, and reference checks before they are onboarded." },
             { q: "Do you have tutors for classes 11-12 (PCM/PCB)?", a: "Yes — we have expert senior secondary subject tutors specializing in Science, Commerce, and Humanities streams." },
             { q: "Can I get a foreign language tutor?", a: "Yes — verified tutors are available for French, German, Spanish, and other foreign languages." }

@@ -66,9 +66,9 @@ export default function HomeCleaningPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "✨", number: "[X]", label: "Cleaning Bookings in Noida" },
+          { icon: "✨", number: "4.8/5", label: "Cleaning Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -84,7 +84,7 @@ export default function HomeCleaningPage() {
               "We thoroughly descale bathroom tiles, remove hard water stains from mirrors and glass, unclog drains, and sanitize the entire space including the toilet bowl and sink. Every corner is meticulously cleaned, leaving your bathroom smelling fresh and looking spotless.",
               "You can book a one-off deep clean before moving into a new apartment in Sector 137, or schedule regular monthly sessions to keep the grime away. Our cleaners are fully verified in 48 hours and you know exactly what you'll pay upfront. Set your rate, get matched, and let the experts handle the heavy scrubbing."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book bathroom cleaner", href: "https://app.moyointernational.com" }}
           />
 
@@ -97,7 +97,7 @@ export default function HomeCleaningPage() {
               "Whether you're dealing with a stubborn cockroach infestation in Greater Noida West or termite damage in your wooden furniture in Sector 62, our verified professionals provide targeted treatments. They assess the severity of the infestation, apply the correct treatment—be it gel baits, odorless sprays, or intense fumigation—and provide clear follow-up instructions to prevent a recurrence.",
               "You see the full price before you book. No hidden charges added on the spot. Book a comprehensive pest control session on your schedule and protect your home safely."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book pest control expert", href: "https://app.moyointernational.com" }}
           />
 
@@ -110,7 +110,7 @@ export default function HomeCleaningPage() {
               "Our service covers deep cleaning of the chimney filter, scrubbing grease off wall tiles, degreasing the stovetop, and thoroughly cleaning the inside and outside of all cabinets. We even tackle the tough spots behind the fridge and under the sink. Every cleaner on our platform is ID-verified and background-checked. You get a spotless, hygienic kitchen without lifting a finger.",
               "Propose your rate through our bidding system and get your kitchen deep cleaned by a verified professional before your next big family gathering."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book kitchen cleaner", href: "https://app.moyointernational.com" }}
           />
 
@@ -123,7 +123,7 @@ export default function HomeCleaningPage() {
               "MOYO connects you with experienced cleaners who specialize in windows, doors, and balconies. They systematically vacuum the dust out of sliding window tracks, scrub the grills, and use professional squeegees for a streak-free finish on all glass surfaces.",
               "Hard-to-reach panes are handled safely and efficiently. You don't have to risk leaning out of your high-rise balcony. Just book a verified window cleaner, see the price upfront, and enjoy the clear view."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book window cleaner", href: "https://app.moyointernational.com" }}
           />
 
@@ -136,7 +136,7 @@ export default function HomeCleaningPage() {
               "MOYO's water tank cleaning professionals follow a strict, multi-step mechanized process. They completely drain the tank, scrub the walls to remove scale and bio-film, vacuum the sludge from the bottom, and finally disinfect the entire tank using safe, food-grade agents.",
               "Don't compromise your family's health with a quick, unverified cleaning. Our experts are background-checked and bring all the necessary equipment, including high-pressure washers and industrial vacuums. Book a thorough, hygienic water tank clean and ensure your water supply is safe."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book water tank cleaner", href: "https://app.moyointernational.com" }}
           />
           
@@ -153,11 +153,11 @@ export default function HomeCleaningPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Home Cleaning Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Bathroom Deep Clean", partTime: "from ₹[X]", fullTime: "—", note: "Depends on size" },
-              { service: "Pest Control (2BHK)", partTime: "from ₹[X]", fullTime: "—", note: "Includes follow-up" },
-              { service: "Kitchen Deep Clean", partTime: "from ₹[X]", fullTime: "—", note: "Includes chimney" },
-              { service: "Water Tank Cleaning", partTime: "from ₹[X]", fullTime: "—", note: "Mechanized process" },
-              { service: "Full Home Deep Clean", partTime: "from ₹[X]", fullTime: "—", note: "Set your rate" },
+              { service: "Bathroom Deep Clean", partTime: "from ₹499", fullTime: "—", note: "Depends on size" },
+              { service: "Pest Control (2BHK)", partTime: "from ₹499", fullTime: "—", note: "Includes follow-up" },
+              { service: "Kitchen Deep Clean", partTime: "from ₹499", fullTime: "—", note: "Includes chimney" },
+              { service: "Water Tank Cleaning", partTime: "from ₹499", fullTime: "—", note: "Mechanized process" },
+              { service: "Full Home Deep Clean", partTime: "from ₹499", fullTime: "—", note: "Set your rate" },
             ]} />
           </div>
         </section>
@@ -211,7 +211,7 @@ export default function HomeCleaningPage() {
         {/* Section 10: FAQ */}
         <div className="px-4 sm:px-6 lg:px-8 bg-white">
           <FAQAccordion faqs={[
-            { q: "How much does home deep cleaning cost in Noida?", a: "It depends on the home size and scope — a bathroom deep clean starts from ₹[X], and a full-home clean from ₹[X]. You always see the price before booking." },
+            { q: "How much does home deep cleaning cost in Noida?", a: "It depends on the home size and scope — a bathroom deep clean starts from ₹499, and a full-home clean from ₹499. You always see the price before booking." },
             { q: "Do you bring your own cleaning material?", a: "Yes — MOYO professionals arrive fully equipped with their own industry-grade cleaning chemicals, tools, and supplies unless you specifically request otherwise." },
             { q: "Is pest control safe for kids and pets?", a: "Our pest control treatments use government-approved chemicals and come with safety guidance. Please mention any children or pets when booking so the expert can take necessary precautions." },
             { q: "How often should a water tank be cleaned?", a: "In Noida, it is highly recommended to clean your water tanks every 6 months. MOYO thoroughly drains, scrubs, and disinfects both overhead and underground tanks." },

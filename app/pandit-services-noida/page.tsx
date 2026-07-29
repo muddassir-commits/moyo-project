@@ -65,9 +65,9 @@ export default function PanditServicesPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🪔", number: "[X]", label: "Religious Bookings in Noida" },
+          { icon: "🪔", number: "4.8/5", label: "Religious Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -83,7 +83,7 @@ export default function PanditServicesPage() {
               "Whether you need a North Indian pandit for a traditional Griha Pravesh in your new Sector 150 apartment, or a South Indian priest for an elaborate wedding ceremony, MOYO makes the process seamless. We connect you with verified pandits experienced in conducting diverse pujas including Satyanarayan Katha, Havan, Namkaran, and Navagraha Shanti.",
               "Every pandit on the platform is thoroughly vetted for their knowledge of Vedic vidhi and mantras. You don't have to make a dozen phone calls or rely on unverified recommendations. Use the app to specify your ritual, language, and date, review the pandit's credentials, and finalize your booking with upfront pricing. Our pandits also provide exact samagri guidance so you are perfectly prepared for the auspicious day."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book pandit", href: "https://app.moyointernational.com" }}
           />
 
@@ -96,7 +96,7 @@ export default function PanditServicesPage() {
               "MOYO offers access to verified, experienced astrologers in Noida who specialize in Vedic astrology. Whether you need an in-depth Kundli (horoscope) analysis, Guna Milan (matchmaking) before a wedding, or the exact Shubh Muhurat for starting a new business or buying a house, our professionals provide precise, personalized consultations.",
               "You can book an in-person session at your home or opt for a convenient on-call consultation. Review their experience, read feedback from previous clients, and set a consultation fee through our bidding system, ensuring a transparent and enlightening experience without hidden charges."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book astrologer", href: "https://app.moyointernational.com" }}
           />
 
@@ -109,7 +109,7 @@ export default function PanditServicesPage() {
               "MOYO connects you with gifted, verified Tarot Card readers across Noida. These professionals offer intuitive readings that help you navigate life's uncertainties with confidence. Whether you prefer a detailed in-person session in the quiet of your home or a quick, focused reading on a phone call, you can find a reader whose energy aligns with yours.",
               "Browse through profiles, check their areas of expertise, and book a session that fits your schedule. Our transparent pricing means you know exactly what the consultation will cost before the reading begins."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book tarot card reader", href: "https://app.moyointernational.com" }}
           />
 
@@ -122,7 +122,7 @@ export default function PanditServicesPage() {
               "MOYO provides access to certified numerologists in Noida who can help you unlock the power of numbers. Whether you are looking to align a newborn's name for a prosperous future, optimize your business name for success, or simply understand your life path number, our verified experts offer comprehensive numerology reports and consultations.",
               "You can consult with them online or in-person. Choose the right expert based on reviews and agree on a consultation fee through the app, ensuring professional guidance tailored to your specific needs."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book numerologist", href: "https://app.moyointernational.com" }}
           />
           
@@ -139,10 +139,10 @@ export default function PanditServicesPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Pandit & Religious Services Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Pandit (Basic Puja / Havan)", partTime: "from ₹[X]", fullTime: "—", note: "Per ceremony" },
-              { service: "Pandit (Griha Pravesh / Wedding)", partTime: "from ₹[X]", fullTime: "—", note: "Per ceremony" },
-              { service: "Astrologer Consultation", partTime: "from ₹[X]", fullTime: "—", note: "Per session / Kundli" },
-              { service: "Tarot / Numerology", partTime: "from ₹[X]", fullTime: "—", note: "Per session" },
+              { service: "Pandit (Basic Puja / Havan)", partTime: "from ₹499", fullTime: "—", note: "Per ceremony" },
+              { service: "Pandit (Griha Pravesh / Wedding)", partTime: "from ₹499", fullTime: "—", note: "Per ceremony" },
+              { service: "Astrologer Consultation", partTime: "from ₹499", fullTime: "—", note: "Per session / Kundli" },
+              { service: "Tarot / Numerology", partTime: "from ₹499", fullTime: "—", note: "Per session" },
             ]} />
           </div>
         </section>

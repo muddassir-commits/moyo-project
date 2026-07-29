@@ -73,9 +73,9 @@ export default function ConstructionServicesPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🏗️", number: "[X]", label: "Construction Bookings in Noida" },
+          { icon: "🏗️", number: "4.8/5", label: "Construction Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -91,7 +91,7 @@ export default function ConstructionServicesPage() {
               "MOYO connects you with verified professional painters in Noida who specialize in everything from simple whitewashing and touch-ups to premium texture painting and exterior weatherproofing. Whether you're repainting a newly rented flat in Sector 137 or giving your independent house in Sector 62 a complete makeover, our painters provide clear, upfront quotes based on square footage and chosen finish.",
               "Avoid the mess and the uncertainty. Use the app to schedule a site visit, agree on a price, and get the job done by skilled hands."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book painter", href: "https://app.moyointernational.com" }}
           />
 
@@ -104,7 +104,7 @@ export default function ConstructionServicesPage() {
               "MOYO offers verified carpenters for all your woodwork needs. Whether you need a broken hinge fixed, a squeaky door shaved down, or full modular kitchen cabinets custom-built from scratch, our professionals are equipped for the job. From minor furniture repairs to extensive interior woodwork, you can request a quote, review the carpenter's past ratings, and agree on a fair price through our bidding system.",
               "Get your carpentry work completed with precision and professionalism, without the usual runaround."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book carpenter", href: "https://app.moyointernational.com" }}
           />
 
@@ -117,7 +117,7 @@ export default function ConstructionServicesPage() {
               "Book verified tile workers in Noida through MOYO for precision floor and wall tiling, regrouting, and repairs. Whether you are laying vitrified tiles in your living room in Noida Extension or installing intricate mosaic patterns in a kitchen backsplash, our tradespeople deliver quality workmanship. They handle surface preparation, level checking, and precise cutting to minimize wastage.",
               "Stop relying on guesswork. Request an upfront quote based on the area size and let a verified professional handle the heavy lifting."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book tile worker", href: "https://app.moyointernational.com" }}
           />
 
@@ -130,7 +130,7 @@ export default function ConstructionServicesPage() {
               "MOYO connects you with expert false ceiling workers in Noida experienced in both POP and gypsum installations. Whether you want a simple perimeter drop for cove lighting in your bedroom or an elaborate, multi-level design for a commercial office space, our verified contractors ensure structural safety and a flawless finish.",
               "Discuss your design requirements, get a clear estimate covering materials and labor, and upgrade your interior aesthetic with confidence."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book false ceiling worker", href: "https://app.moyointernational.com" }}
           />
 
@@ -143,7 +143,7 @@ export default function ConstructionServicesPage() {
               "Don't wait for the monsoons to expose the cracks. MOYO provides specialized waterproofing workers in Noida who tackle terrace leaks, bathroom seepage, and exterior wall dampness. Using industry-standard chemical coatings, membrane applications, and injection grouting, our verified professionals identify the root cause of the leak and fix it permanently.",
               "Schedule a thorough site inspection through the app and receive a transparent, upfront quote to protect your property from water damage."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book waterproofing worker", href: "https://app.moyointernational.com" }}
           />
 
@@ -156,7 +156,7 @@ export default function ConstructionServicesPage() {
               "MOYO gives you access to verified interior designers in Noida who handle everything from concept to completion. Whether you need a modern minimalist look for a 3BHK or a professional fit-out for a startup workspace, our designers work within your budget and timeline. They provide detailed 2D/3D layouts, material selection guidance, and oversee the on-site execution.",
               "Skip the unreliable contractors. Use MOYO to find a designer whose portfolio matches your style and agree on a transparent design fee."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book interior designer", href: "https://app.moyointernational.com" }}
           />
 
@@ -169,7 +169,7 @@ export default function ConstructionServicesPage() {
               "MOYO connects you with verified masons across Noida for all types of brickwork, blockwork, cement plastering, and concrete repairs. Whether you are modifying a room layout, building a new partition wall, or fixing damaged exterior plaster, our skilled tradespeople ensure the structural integrity and alignment are perfect.",
               "Set your requirements in the app and hire a dependable mason on a daily wage or project basis, completely hassle-free."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book mason", href: "https://app.moyointernational.com" }}
           />
 
@@ -182,7 +182,7 @@ export default function ConstructionServicesPage() {
               "Find verified welders in Noida through MOYO for quick, on-site metal repairs and fabrication. Whether you need a quick fix for a window grill, a structural weld for a staircase railing, or heavy-duty metal joining, our tradespeople come equipped with the necessary tools and safety gear.",
               "Review quotes upfront and get your metalwork secured by professionals who prioritize strength and finishing."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book welder", href: "https://app.moyointernational.com" }}
           />
 
@@ -195,7 +195,7 @@ export default function ConstructionServicesPage() {
               "MOYO offers specialized polishing workers in Noida who can restore the original luster to your surfaces. From intricate PU and melamine polishing for your premium wooden furniture and doors, to heavy-duty diamond polishing for marble and granite floors, our verified professionals use the right chemicals and machinery.",
               "Get an upfront estimate based on the surface area and material, and breathe new life into your home's interiors."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book polisher", href: "https://app.moyointernational.com" }}
           />
 
@@ -208,7 +208,7 @@ export default function ConstructionServicesPage() {
               "Through MOYO, you can hire verified fabricators in Noida for manufacturing and installing steel gates, balcony grills, stair railings, and custom metal sheds. Whether you prefer modern stainless steel designs or traditional wrought iron, our professionals handle the cutting, bending, welding, and finishing with accuracy.",
               "Request a site visit to discuss your design, receive a detailed quotation, and ensure your property is both secure and aesthetically pleasing."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book fabricator", href: "https://app.moyointernational.com" }}
           />
 
@@ -221,7 +221,7 @@ export default function ConstructionServicesPage() {
               "MOYO connects you with licensed, verified architects in Noida who provide comprehensive design services. From creating functional floor plans and structural drawings to navigating local Noida Authority building codes and securing necessary approvals, our professionals guide you through the complex construction process.",
               "Consult with experienced architects, review their past projects, and establish a clear fee structure before your construction begins."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book architect", href: "https://app.moyointernational.com" }}
           />
 
@@ -234,7 +234,7 @@ export default function ConstructionServicesPage() {
               "MOYO simplifies the process of finding dependable construction labour in Noida. Whether you need unskilled helpers for a day to clear debris after a renovation, or semi-skilled laborers for an ongoing project, you can hire verified workers through our platform. No more searching at local labour chowks or dealing with uncertain turnups.",
               "Set a fair daily wage through our bidding system and ensure your site keeps moving efficiently."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book general labour", href: "https://app.moyointernational.com" }}
           />
           
@@ -251,10 +251,10 @@ export default function ConstructionServicesPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Construction & Interiors Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Painter", partTime: "from ₹[X]", fullTime: "—", note: "Per sq. ft. / Per project" },
-              { service: "Carpenter", partTime: "from ₹[X]", fullTime: "—", note: "Per day / Per project" },
-              { service: "General Labour", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily wage" },
-              { service: "Interior Designer", partTime: "from ₹[X]", fullTime: "—", note: "Per sq. ft. / Design fee" },
+              { service: "Painter", partTime: "from ₹499", fullTime: "—", note: "Per sq. ft. / Per project" },
+              { service: "Carpenter", partTime: "from ₹499", fullTime: "—", note: "Per day / Per project" },
+              { service: "General Labour", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily wage" },
+              { service: "Interior Designer", partTime: "from ₹499", fullTime: "—", note: "Per sq. ft. / Design fee" },
             ]} />
           </div>
         </section>

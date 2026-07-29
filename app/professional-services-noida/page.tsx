@@ -66,9 +66,9 @@ export default function ProfessionalServicesPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "💼", number: "[X]", label: "B2B Engagements" },
+          { icon: "💼", number: "4.8/5", label: "B2B Engagements" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -86,7 +86,7 @@ export default function ProfessionalServicesPage() {
               "MOYO connects your business with verified, practicing Chartered Accountants in Noida. Whether you are incorporating a new private limited company, managing quarterly GST returns, conducting statutory audits, or seeking strategic financial planning, our professionals deliver compliant, timely services.",
               "Discuss your corporate requirements, agree on retainer or project-based fees, and ensure your books are immaculate."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Consult a CA", href: "/contact" }}
           />
 
@@ -99,7 +99,7 @@ export default function ProfessionalServicesPage() {
               "Find verified advocates and legal consultants in Noida through MOYO. Our network covers experts in drafting robust corporate contracts, handling employee disputes, managing commercial real estate registrations, and providing general legal counsel. Protect your intellectual property and ensure labor law compliance.",
               "Request a consultation, outline your legal requirements, and hire dedicated legal representation on a case-by-case basis or monthly retainer."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Consult an advocate", href: "/contact" }}
           />
 
@@ -112,7 +112,7 @@ export default function ProfessionalServicesPage() {
               "MOYO provides access to specialized Tax Consultants, Financial Advisors, and Insurance Advisors. Whether you need expert advice on corporate tax planning, employee group health insurance policies, or investment structuring for your startup, our verified consultants provide tailored strategies.",
               "Get transparent fee structures and actionable financial advice to secure your company's fiscal future."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire tax consultant", href: "/contact" }}
           />
 
@@ -127,7 +127,7 @@ export default function ProfessionalServicesPage() {
               "Hire experienced HR Recruiters and Business Analysts through MOYO to streamline your operations. Our verified HR professionals manage end-to-end recruitment cycles, from sourcing and interviewing candidates to onboarding and payroll processing. Business analysts can help you map operational inefficiencies and drive data-backed decisions.",
               "Scale your team effectively without committing to full-time in-house HR departments."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire HR professional", href: "/contact" }}
           />
 
@@ -140,7 +140,7 @@ export default function ProfessionalServicesPage() {
               "MOYO connects you with verified Sales Executives experienced in B2B and B2C sales across Noida. Whether you need field executives to cover Sector 18 retail outlets, or corporate sales professionals to pitch software solutions in Noida IT parks, we supply the talent.",
               "Set your base pay and incentive structures, review candidate track records, and accelerate your business growth."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire sales executive", href: "/contact" }}
           />
 
@@ -155,7 +155,7 @@ export default function ProfessionalServicesPage() {
               "Find verified Software Developers, Frontend Engineers, and IT Support technicians in Noida through MOYO. Whether you are building a custom CRM, launching an e-commerce platform, or just need reliable IT maintenance for your office network, our tech professionals deliver quality code and support.",
               "Hire developers for specific freelance projects or on a monthly contract basis."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire IT developer", href: "/contact" }}
           />
 
@@ -168,7 +168,7 @@ export default function ProfessionalServicesPage() {
               "MOYO provides access to verified Digital Marketers, SEO experts, Graphic Designers, and Content Writers. Build comprehensive marketing campaigns, design compelling brand identities, and rank higher on search engines. Instead of locking into expensive long-term agency contracts, hire specialized professionals for targeted growth campaigns.",
               "Propose your project budget, review portfolios, and execute your digital strategy."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Hire marketing professional", href: "/contact" }}
           />
 
@@ -179,10 +179,10 @@ export default function ProfessionalServicesPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Professional Services Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Chartered Accountant", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Per filing / Monthly retainer" },
-              { service: "Advocate / Legal Consult", partTime: "from ₹[X]", fullTime: "—", note: "Per hour / Per contract" },
-              { service: "Digital Marketing / SEO", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Per project / Monthly" },
-              { service: "IT Developer", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Per project / Monthly" },
+              { service: "Chartered Accountant", partTime: "from ₹499", fullTime: "from ₹499", note: "Per filing / Monthly retainer" },
+              { service: "Advocate / Legal Consult", partTime: "from ₹499", fullTime: "—", note: "Per hour / Per contract" },
+              { service: "Digital Marketing / SEO", partTime: "from ₹499", fullTime: "from ₹499", note: "Per project / Monthly" },
+              { service: "IT Developer", partTime: "from ₹499", fullTime: "from ₹499", note: "Per project / Monthly" },
             ]} />
           </div>
         </section>

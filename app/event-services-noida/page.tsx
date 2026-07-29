@@ -67,9 +67,9 @@ export default function EventServicesPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🎉", number: "[X]", label: "Event Bookings in Noida" },
+          { icon: "🎉", number: "4.8/5", label: "Event Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -85,7 +85,7 @@ export default function EventServicesPage() {
               "MOYO connects you with verified, professional DJs across Noida for everything from intimate house parties in Sector 137 to massive corporate galas in Greater Noida. Our DJs arrive with full sound setups—including speakers, mixers, and optional lighting—so you don't have to rent equipment separately.",
               "Whether you need an energetic Bollywood set for a sangeet or sophisticated lounge music for a networking event, you can review DJ profiles, listen to past mixes, and agree on a clear, upfront price before you book."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book disc jockey (dj)", href: "https://app.moyointernational.com" }}
           />
 
@@ -98,7 +98,7 @@ export default function EventServicesPage() {
               "MOYO provides professional event photographers in Noida who know exactly how to capture candid moments, structured family portraits, and dynamic event coverage. Whether you are hosting a child's first birthday party, a silver jubilee anniversary, or a multi-day wedding, we match you with vetted photographers whose style fits your vision.",
               "Avoid the endless back-and-forth negotiations with studios. You can view comprehensive portfolios in the app, select a photographer whose work you love, and lock in a fixed package price for the exact hours you need."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book event photographer", href: "https://app.moyointernational.com" }}
           />
 
@@ -111,7 +111,7 @@ export default function EventServicesPage() {
               "MOYO connects you with experienced event planners in Noida who offer end-to-end management for weddings, corporate retreats, and milestone birthdays. They manage the stress of vendor coordination, venue setup, timeline execution, and on-the-day problem solving.",
               "Set your budget expectations in the app and get matched with a verified planner who can translate your ideas into a seamless reality, ensuring you are a guest at your own event."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book event planner", href: "https://app.moyointernational.com" }}
           />
 
@@ -124,7 +124,7 @@ export default function EventServicesPage() {
               "Whether you want a soulful Ghazal singer for a quiet evening, a high-energy performer for a pre-wedding Sangeet, or an acoustic artist for a cafe launch, we have a diverse roster of vocalists. You don't have to rely on word-of-mouth recommendations that might fall through at the last minute.",
               "Browse through video portfolios, read reviews from previous hosts, and set a fixed performance fee through our transparent bidding system."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book singer", href: "https://app.moyointernational.com" }}
           />
 
@@ -137,7 +137,7 @@ export default function EventServicesPage() {
               "Whether you are organizing a formal corporate award ceremony, a lively wedding sangeet, or a mall activation event in Sector 18, MOYO connects you with professional emcees in Noida. Our verified hosts are adept at crowd control, script delivery, and impromptu engagement.",
               "Review their past hosting videos in the app, ensure their style matches your event's tone, and book them with complete confidence and transparent pricing."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book anchor", href: "https://app.moyointernational.com" }}
           />
 
@@ -150,7 +150,7 @@ export default function EventServicesPage() {
               "MOYO connects you with professional videographers in Noida specializing in cinematic event coverage. From stunning wedding films with drone footage to crisp, multi-camera corporate event recaps, our vetted professionals have the high-end gear and editing skills required.",
               "Review their showreels in the app, discuss your vision, and secure a videographer at a price you agree upon upfront—no hidden post-production fees."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book videographer", href: "https://app.moyointernational.com" }}
           />
 
@@ -163,7 +163,7 @@ export default function EventServicesPage() {
               "MOYO provides trained, professional waitstaff on hire in Noida. Our verified waiters and waitresses are experienced in serving at private house parties, corporate buffets, and wedding receptions. They ensure food is served elegantly and the venue remains tidy throughout the event.",
               "Book reliable service staff by the hour or for the entire day, knowing they have been thoroughly ID-checked by MOYO."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book waiter/waitress", href: "https://app.moyointernational.com" }}
           />
 
@@ -176,7 +176,7 @@ export default function EventServicesPage() {
               "MOYO connects you with skilled, verified bartenders in Noida who can manage your home bar or set up a dedicated cocktail station for larger events. From classic mixes to custom flair bartending for a memorable night, our professionals handle the drinks so you can enjoy the party.",
               "You can even request optional bar setups and glassware. Review their experience, set the rate, and ensure your guests are well-served all night."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book bartender", href: "https://app.moyointernational.com" }}
           />
           
@@ -193,10 +193,10 @@ export default function EventServicesPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Event Services Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "DJ (with sound setup)", partTime: "from ₹[X]", fullTime: "—", note: "Per event package" },
-              { service: "Event Photographer", partTime: "from ₹[X]", fullTime: "—", note: "Per day / Hours" },
-              { service: "Waitstaff / Bartender", partTime: "from ₹[X]", fullTime: "—", note: "Per shift" },
-              { service: "Live Singer / Anchor", partTime: "from ₹[X]", fullTime: "—", note: "Per performance" },
+              { service: "DJ (with sound setup)", partTime: "from ₹499", fullTime: "—", note: "Per event package" },
+              { service: "Event Photographer", partTime: "from ₹499", fullTime: "—", note: "Per day / Hours" },
+              { service: "Waitstaff / Bartender", partTime: "from ₹499", fullTime: "—", note: "Per shift" },
+              { service: "Live Singer / Anchor", partTime: "from ₹499", fullTime: "—", note: "Per performance" },
             ]} />
           </div>
         </section>

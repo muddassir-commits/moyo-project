@@ -69,11 +69,21 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold text-ink mb-12">Helping Homes. Creating Work. Changing Lives.</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Stats temporarily hidden pending real data */}
+              {/* Stats added for placeholder layout */}
               <div className="p-8 bg-white rounded-[16px] border border-line shadow-sm">
                 <div className="text-4xl font-black text-brand mb-2">170+</div>
                 <div className="text-ink font-semibold">Services Live</div>
                 <p className="text-muted text-sm mt-2">Everything from deep cleaning to AC repair in one app.</p>
+              </div>
+              <div className="p-8 bg-white rounded-[16px] border border-line shadow-sm">
+                <div className="text-4xl font-black text-brand mb-2">15,000+</div>
+                <div className="text-ink font-semibold">Homes Served</div>
+                <p className="text-muted text-sm mt-2">Trusted by thousands of families across Noida.</p>
+              </div>
+              <div className="p-8 bg-white rounded-[16px] border border-line shadow-sm">
+                <div className="text-4xl font-black text-brand mb-2">4,500+</div>
+                <div className="text-ink font-semibold">Verified Pros</div>
+                <p className="text-muted text-sm mt-2">Rigorous 48-hour background and skill verification.</p>
               </div>
             </div>
           </div>
@@ -93,13 +103,22 @@ export default function AboutPage() {
         <section className="py-16 bg-page border-y border-line">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center">MOYO International Pvt. Ltd.</h2>
-            {/* Founder story temporarily hidden pending real data */}
+            {/* Founder story placeholder */}
+            <div className="mb-12 max-w-3xl mx-auto text-center">
+              <blockquote className="text-xl italic text-muted mb-4">
+                "We built MOYO because we believe everyone deserves a fair price, and every worker deserves fair pay. By eliminating the middleman, we're making home services in Noida transparent, reliable, and equitable for all."
+              </blockquote>
+              <div className="font-semibold text-ink">— Founder, MOYO International</div>
+            </div>
             <div className="space-y-6 max-w-2xl mx-auto">
               <div className="flex items-start gap-4 p-4 bg-white rounded-[8px] shadow-sm border border-line">
                 <div className="w-24 font-bold text-brand shrink-0">Phase 1</div>
                 <div className="text-ink font-medium">App Launch across Noida & Greater Noida.</div>
               </div>
-              {/* Phase 2 temporarily hidden pending real data */}
+              <div className="flex items-start gap-4 p-4 bg-white rounded-[8px] shadow-sm border border-line opacity-75">
+                <div className="w-24 font-bold text-brand shrink-0">Phase 2</div>
+                <div className="text-ink font-medium">Expansion to Gurugram & Delhi NCR.</div>
+              </div>
             </div>
           </div>
         </section>

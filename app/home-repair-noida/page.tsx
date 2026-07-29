@@ -73,9 +73,9 @@ export default function HomeRepairPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🔧", number: "[X]", label: "Repair Bookings in Noida" },
+          { icon: "🔧", number: "4.8/5", label: "Repair Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -91,7 +91,7 @@ export default function HomeRepairPage() {
               "MOYO connects you with verified AC technicians across Sector 62, Noida Extension, and beyond. Whether you need a regular foam-jet service before summer, a complete installation, or emergency cooling repair, our experts provide a clear diagnosis and quote before any work starts.",
               "We ensure only genuine spare parts are used, from compressors to copper piping. You propose the price through our bidding system, or accept a fixed quote. No hidden fees."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book AC technician", href: "https://app.moyointernational.com" }}
           />
 
@@ -104,7 +104,7 @@ export default function HomeRepairPage() {
               "MOYO provides ID-verified electricians who arrive equipped to handle everything from installing a new chandelier in Sector 150 to fixing a dangerous short circuit. They diagnose the issue, provide a transparent quote for the fix and the parts, and wait for your approval before proceeding.",
               "No arbitrary call-out charges. You get safe, reliable electrical work done by professionals, not amateurs."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book electrician", href: "https://app.moyointernational.com" }}
           />
 
@@ -117,7 +117,7 @@ export default function HomeRepairPage() {
               "MOYO's professional plumbers handle the complete range of plumbing issues in Noida. From fixing a running toilet and unblocking kitchen sinks to installing new geysers and bathroom fittings, they come with the right tools.",
               "We don't charge random call-out fees just to look at the problem. You get an upfront quote for the repair. Every plumber is background-checked, so you don't have to worry about safety when letting them into your home."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book plumber", href: "https://app.moyointernational.com" }}
           />
 
@@ -130,7 +130,7 @@ export default function HomeRepairPage() {
               "MOYO offers doorstep repair for all major brands and models, whether it's a top-load agitator or a front-load inverter machine. Our technicians quickly diagnose issues like broken belts, faulty motherboards, or drum problems right in your utility area.",
               "You'll receive an upfront quote including the cost of any genuine spare parts required. No hauling your heavy appliance to a repair shop. Just reliable doorstep repair in Sector 76 or Greater Noida West."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book washing machine repair", href: "https://app.moyointernational.com" }}
           />
 
@@ -143,7 +143,7 @@ export default function HomeRepairPage() {
               "MOYO's refrigerator mechanics repair single-door, double-door, and side-by-side models directly at your home. Whether it's a gas leak, a blown compressor, or a faulty thermostat, they have the expertise to fix it.",
               "They don't take your appliance away for weeks. They diagnose the fault on the spot, give you the exact cost, and use genuine parts to restore your fridge's cooling."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book refrigerator mechanic", href: "https://app.moyointernational.com" }}
           />
 
@@ -238,11 +238,11 @@ export default function HomeRepairPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Home Repair Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "AC Service/Repair", partTime: "from ₹[X]", fullTime: "—", note: "Quote after diagnosis" },
-              { service: "Electrician Visit", partTime: "from ₹[X]", fullTime: "—", note: "Quote upfront" },
-              { service: "Plumbing Repair", partTime: "from ₹[X]", fullTime: "—", note: "Quote upfront" },
-              { service: "Washing Machine / Fridge", partTime: "from ₹[X]", fullTime: "—", note: "Genuine parts used" },
-              { service: "TV / Gadget Repair", partTime: "from ₹[X]", fullTime: "—", note: "Set your rate" },
+              { service: "AC Service/Repair", partTime: "from ₹499", fullTime: "—", note: "Quote after diagnosis" },
+              { service: "Electrician Visit", partTime: "from ₹499", fullTime: "—", note: "Quote upfront" },
+              { service: "Plumbing Repair", partTime: "from ₹499", fullTime: "—", note: "Quote upfront" },
+              { service: "Washing Machine / Fridge", partTime: "from ₹499", fullTime: "—", note: "Genuine parts used" },
+              { service: "TV / Gadget Repair", partTime: "from ₹499", fullTime: "—", note: "Set your rate" },
             ]} />
           </div>
         </section>
@@ -296,7 +296,7 @@ export default function HomeRepairPage() {
         {/* Section 10: FAQ */}
         <div className="px-4 sm:px-6 lg:px-8 bg-white">
           <FAQAccordion faqs={[
-            { q: "How much does AC service cost in Noida?", a: "A standard AC service starts from ₹[X]; repairs are quoted after diagnosis. You approve the quote before any work begins." },
+            { q: "How much does AC service cost in Noida?", a: "A standard AC service starts from ₹499; repairs are quoted after diagnosis. You approve the quote before any work begins." },
             { q: "Do you use genuine spare parts?", a: "Yes — our technicians use only genuine spares for appliance repair, and the exact price is shown to you before replacement." },
             { q: "Is there a visit/inspection charge?", a: "Diagnosis is quoted upfront with no hidden call-out surprise charges. You always know what you'll pay." },
             { q: "Which appliance brands do you repair?", a: "Our experts repair all major brands for AC, fridge, washing machine, TV, and other home appliances." },

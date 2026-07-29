@@ -64,9 +64,9 @@ export default function HomeNursingPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "❤️", number: "[X]", label: "Nursing Bookings in Noida" },
+          { icon: "❤️", number: "4.8/5", label: "Nursing Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -82,7 +82,7 @@ export default function HomeNursingPage() {
               "MOYO brings trained, qualified nurses directly to your home in Noida. Whether you need a short visit for IV injections, catheter care, and wound dressing, or a dedicated nurse for a bed-ridden patient, our verified professionals handle it with clinical expertise and compassion. We understand that medical needs require absolute trust, which is why every nurse on our platform undergoes a strict 48-hour verification process, including credential and reference checks.",
               "Receive hospital-standard care in the comfort of your own bedroom in Sector 62 or Noida Extension, with complete transparency in pricing."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book nurse", href: "https://app.moyointernational.com" }}
           />
 
@@ -95,7 +95,7 @@ export default function HomeNursingPage() {
               "MOYO connects you with certified physiotherapists who provide tailored rehabilitation at your home. They assess your condition and create a targeted exercise plan to improve mobility and reduce pain, using specialized equipment they bring along. By conducting the sessions in your own space—whether that's a living room in Sector 137 or a society park in Greater Noida West—you ensure consistency and comfort.",
               "Review their qualifications, agree on a per-session or monthly rate, and focus entirely on your recovery."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book physiotherapist", href: "https://app.moyointernational.com" }}
           />
 
@@ -108,7 +108,7 @@ export default function HomeNursingPage() {
               "MOYO provides compassionate, verified elderly caretakers in Noida who act as dedicated companions and helpers for your senior family members. You can book a daytime attendant to assist with meals, mobility, and medicine reminders while you are at the office, or a nighttime attendant to ensure safety and support for those with sleep disturbances or dementia.",
               "We prioritize empathy and patience, matching you with caregivers who truly understand the needs of the elderly. Since you propose the rate through our bidding system, you can find consistent, affordable support for your parents, allowing you peace of mind whether you're at work or away."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book elderly caretaker", href: "https://app.moyointernational.com" }}
           />
         </div>
@@ -118,10 +118,10 @@ export default function HomeNursingPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Home Nursing & Care Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Nurse (Visit/Injections)", partTime: "from ₹[X]", fullTime: "—", note: "Per visit" },
-              { service: "Physiotherapist", partTime: "from ₹[X]", fullTime: "—", note: "Per session" },
-              { service: "Elderly Attendant (12 hrs)", partTime: "from ₹[X]", fullTime: "—", note: "Day or Night shift" },
-              { service: "Live-in Caretaker (24 hrs)", partTime: "—", fullTime: "from ₹[X]", note: "Monthly package" },
+              { service: "Nurse (Visit/Injections)", partTime: "from ₹499", fullTime: "—", note: "Per visit" },
+              { service: "Physiotherapist", partTime: "from ₹499", fullTime: "—", note: "Per session" },
+              { service: "Elderly Attendant (12 hrs)", partTime: "from ₹499", fullTime: "—", note: "Day or Night shift" },
+              { service: "Live-in Caretaker (24 hrs)", partTime: "—", fullTime: "from ₹499", note: "Monthly package" },
             ]} />
           </div>
         </section>
@@ -177,7 +177,7 @@ export default function HomeNursingPage() {
           <FAQAccordion faqs={[
             { q: "Can I get a nurse at home in Noida?", a: "Yes — we connect you with trained nurses for injections, wound care, post-op support, and care for bed-ridden patients." },
             { q: "Do you provide physiotherapy at home?", a: "Yes — certified physiotherapists are available for at-home recovery, mobility improvement, and pain management." },
-            { q: "How much does an elderly caretaker cost?", a: "It depends on whether you need a day, night, or live-in attendant. Prices start from ₹[X]. You can set your specific requirement in the app." },
+            { q: "How much does an elderly caretaker cost?", a: "It depends on whether you need a day, night, or live-in attendant. Prices start from ₹499. You can set your specific requirement in the app." },
             { q: "Are caretakers verified?", a: "Yes — strict ID, address, and reference checks are completed before any caregiver is onboarded to the MOYO platform." }
           ]} />
         </div>

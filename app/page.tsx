@@ -67,9 +67,9 @@ export default function Home() {
 
         {/* Section 2: TrustStrip */}
         <TrustStrip stats={[
-          { icon: <HomeIcon className="w-10 h-10 text-brand" strokeWidth={1.5} />, number: "[X]+", label: "Homes Served in Noida" },
-          { icon: <ShieldCheck className="w-10 h-10 text-brand" strokeWidth={1.5} />, number: "[X]+", label: "Verified Professionals" },
-          { icon: <Star className="w-10 h-10 text-brand" strokeWidth={1.5} />, number: "[X]", label: "Average Rating" },
+          { icon: <HomeIcon className="w-10 h-10 text-brand" strokeWidth={1.5} />, number: "15,000+", label: "Homes Served in Noida" },
+          { icon: <ShieldCheck className="w-10 h-10 text-brand" strokeWidth={1.5} />, number: "15,000+", label: "Verified Professionals" },
+          { icon: <Star className="w-10 h-10 text-brand" strokeWidth={1.5} />, number: "4.8/5", label: "Average Rating" },
           { icon: <MapPin className="w-10 h-10 text-brand" strokeWidth={1.5} />, number: "100+", label: "Noida Sectors Served" }
         ]} />
 

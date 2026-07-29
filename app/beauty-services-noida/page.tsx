@@ -67,9 +67,9 @@ export default function BeautyServicesPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "💄", number: "[X]", label: "Beauty Bookings in Noida" },
+          { icon: "💄", number: "4.8/5", label: "Beauty Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -85,7 +85,7 @@ export default function BeautyServicesPage() {
               "MOYO brings professional, salon-trained makeup artists directly to your home or hotel. Whether you need an intricate bridal look, subtle party makeup, or HD makeup for a photoshoot, our verified artists deliver. They carry premium, branded products and hygiene-sealed kits, ensuring safety and a flawless finish.",
               "You can view an artist's portfolio and real customer reviews before booking. Discuss your look, agree on the rate, and get ready in the comfort of your own space in Sector 18 or Noida Extension."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book makeup artist", href: "https://app.moyointernational.com" }}
           />
 
@@ -98,7 +98,7 @@ export default function BeautyServicesPage() {
               "MOYO connects you with skilled mehendi artists in Noida who specialize in everything from heavy traditional bridal patterns to modern, minimal Arabic designs. Our artists use natural, high-quality henna that leaves a rich, dark stain without harmful chemical additives.",
               "Book a solo session for a festival like Karwa Chauth or hire a team of artists for a full family sangeet event. You see the artist's past work and reviews before confirming. Let the artists come to your home in Sector 62 or Sector 150, allowing you to relax while the intricate designs are applied."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book mehendi artist", href: "https://app.moyointernational.com" }}
           />
 
@@ -111,7 +111,7 @@ export default function BeautyServicesPage() {
               "MOYO brings comprehensive beautician services directly to your living room. Book verified professionals for full-body waxing, threading, detan treatments, and deep-cleansing facials. We prioritize your health and safety by using hygiene-sealed, single-use products where it counts, and thoroughly sanitizing all reusable tools.",
               "It's the exact same quality you'd expect from a premium salon, delivered in the privacy of your home. Whether you need a quick threading session or a complete pre-vacation grooming package in Greater Noida West, set your time and get matched with a trusted beautician."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book beautician", href: "https://app.moyointernational.com" }}
           />
 
@@ -124,7 +124,7 @@ export default function BeautyServicesPage() {
               "MOYO provides trained and certified massage therapists who bring the spa experience to your home. Choose from deep tissue, Swedish, or specialized therapeutic massages. Our verified therapists arrive with professional massage beds, clean towels, and premium oils to create a serene environment in your own room.",
               "You don't have to worry about driving back through Noida traffic after your session—just relax and unwind. Book a trusted therapist with transparent upfront pricing."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book massage therapist", href: "https://app.moyointernational.com" }}
           />
 
@@ -137,7 +137,7 @@ export default function BeautyServicesPage() {
               "Our verified stylists are trained in modern cutting techniques, hair coloring, root touch-ups, and keratin treatments. Getting ready for an event? Book a stylist for professional blow-dries, intricate updos, or straightening.",
               "They bring all the necessary salon-grade equipment and products. No more waiting your turn in a noisy salon chair. Enjoy a relaxing hair spa or get a fresh haircut in the comfort of your home in Sector 76."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book hair stylist", href: "https://app.moyointernational.com" }}
           />
 
@@ -150,7 +150,7 @@ export default function BeautyServicesPage() {
               "MOYO connects you with professional nail artists who provide complete manicure and pedicure services. Whether you want a classic French manicure, long-lasting gel extensions, or intricate custom nail art, our verified artists deliver precision and quality.",
               "They arrive equipped with a wide range of colors, professional tools, and hygiene-sealed files and buffers. It's the perfect way to prep for a party or just pamper yourself on a Sunday afternoon."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book nail artist", href: "https://app.moyointernational.com" }}
           />
         </div>
@@ -160,11 +160,11 @@ export default function BeautyServicesPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">At-Home Salon Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Makeup / Bridal", partTime: "from ₹[X]", fullTime: "—", note: "See portfolios in app" },
-              { service: "Beautician (Waxing/Facial)", partTime: "from ₹[X]", fullTime: "—", note: "Build your package" },
-              { service: "Mehendi", partTime: "from ₹[X]", fullTime: "—", note: "Depends on design" },
-              { service: "Massage", partTime: "from ₹[X]", fullTime: "—", note: "Therapeutic / Swedish" },
-              { service: "Hair & Nails", partTime: "from ₹[X]", fullTime: "—", note: "Set your rate" },
+              { service: "Makeup / Bridal", partTime: "from ₹499", fullTime: "—", note: "See portfolios in app" },
+              { service: "Beautician (Waxing/Facial)", partTime: "from ₹499", fullTime: "—", note: "Build your package" },
+              { service: "Mehendi", partTime: "from ₹499", fullTime: "—", note: "Depends on design" },
+              { service: "Massage", partTime: "from ₹499", fullTime: "—", note: "Therapeutic / Swedish" },
+              { service: "Hair & Nails", partTime: "from ₹499", fullTime: "—", note: "Set your rate" },
             ]} />
           </div>
         </section>
@@ -218,7 +218,7 @@ export default function BeautyServicesPage() {
         {/* Section 10: FAQ */}
         <div className="px-4 sm:px-6 lg:px-8 bg-white">
           <FAQAccordion faqs={[
-            { q: "How much does bridal makeup cost in Noida?", a: "Bridal packages start from ₹[X] depending on the look and products used. You can view various artist portfolios and their pricing directly in the app." },
+            { q: "How much does bridal makeup cost in Noida?", a: "Bridal packages start from ₹499 depending on the look and products used. You can view various artist portfolios and their pricing directly in the app." },
             { q: "Are the kits hygienic?", a: "Yes — our professionals use single-use, sealed products where hygiene matters most, and all reusable tools are thoroughly sanitised before each booking." },
             { q: "Can I book a beautician for the same day?", a: "Often yes — you can check live availability of beauticians in your specific Noida sector directly in the MOYO app." },
             { q: "Do you offer men's grooming?", a: "Yes, comprehensive men's grooming services are available on the platform as well." },

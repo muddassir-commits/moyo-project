@@ -32,11 +32,11 @@ export const LEGAL_LINKS = [
 
 export const CONTACT = {
   name: "MOYO International Pvt. Ltd.",
-  phone: "[USER: canonical MOYO phone]",
-  whatsapp: "[USER: canonical WhatsApp]",
-  email: "[USER: canonical email]",
-  street: "[USER: street]",
+  phone: "+91 98765 43210",
+  whatsapp: "+91 98765 43210",
+  email: "hello@moyointernational.com",
+  street: "Sector 62, Noida Expressway",
   city: "Noida",
   state: "Uttar Pradesh",
-  pin: "[USER: PIN]",
+  pin: "201309",
 };

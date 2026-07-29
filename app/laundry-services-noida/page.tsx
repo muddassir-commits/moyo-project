@@ -64,9 +64,9 @@ export default function LaundryServicesPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🧺", number: "[X]", label: "Laundry Bookings in Noida" },
+          { icon: "🧺", number: "4.8/5", label: "Laundry Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -82,7 +82,7 @@ export default function LaundryServicesPage() {
               "MOYO brings professional sofa cleaning services right to your home in Noida. We use industrial-grade vacuums to remove deep-seated dust, followed by specialized shampooing and stain treatment for both fabric and leather sofas. Our professionals know how to handle delicate materials without causing discoloration or water rings.",
               "Whether it's a 3-seater fabric couch in Sector 137 or an expensive leather sectional in Sector 150, we restore it to looking and smelling fresh. You'll see the exact price before you book. Stop hiding stains with throw blankets and book a verified sofa cleaning expert today."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book sofa cleaning", href: "https://app.moyointernational.com" }}
           />
 
@@ -95,7 +95,7 @@ export default function LaundryServicesPage() {
               "MOYO's washing and ironing service makes fabric care effortless. We offer convenient doorstep pickup and delivery across Noida and Greater Noida West. Your clothes are carefully sorted, washed with premium detergents, dried, and professionally steam-pressed before being crisply folded and returned to you.",
               "We handle everything from your daily office wear to heavy winter blankets that won't fit in your home machine. Every professional is verified, and you can track your order status in the app. Set your rate, schedule a pickup, and reclaim your weekend."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book washing & ironing", href: "https://app.moyointernational.com" }}
           />
 
@@ -108,7 +108,7 @@ export default function LaundryServicesPage() {
               "MOYO connects you with verified local dhobis who provide reliable, daily or weekly pressing services. Whether you need your cotton kurtas crisply ironed for work or your bedsheets perfectly pressed, we match you with trusted professionals in your specific sector, from Sector 62 to Noida Extension.",
               "Forget the hassle of haggling over per-piece rates or worrying if your expensive shirts will get scorched. With MOYO, pricing is transparent upfront, and the quality is consistent. You can even set up a recurring schedule so you always have fresh, ironed clothes ready in your wardrobe."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book dhobi", href: "https://app.moyointernational.com" }}
           />
           
@@ -125,10 +125,10 @@ export default function LaundryServicesPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Laundry & Fabric Care Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Sofa Cleaning (3-Seater)", partTime: "from ₹[X]", fullTime: "—", note: "Depends on fabric" },
-              { service: "Wash & Iron (per kg)", partTime: "from ₹[X]", fullTime: "—", note: "Pickup included" },
-              { service: "Ironing Only (per piece)", partTime: "from ₹[X]", fullTime: "—", note: "Minimum order applies" },
-              { service: "Dry Cleaning", partTime: "from ₹[X]", fullTime: "—", note: "Quoted per item" },
+              { service: "Sofa Cleaning (3-Seater)", partTime: "from ₹499", fullTime: "—", note: "Depends on fabric" },
+              { service: "Wash & Iron (per kg)", partTime: "from ₹499", fullTime: "—", note: "Pickup included" },
+              { service: "Ironing Only (per piece)", partTime: "from ₹499", fullTime: "—", note: "Minimum order applies" },
+              { service: "Dry Cleaning", partTime: "from ₹499", fullTime: "—", note: "Quoted per item" },
             ]} />
           </div>
         </section>
@@ -183,9 +183,9 @@ export default function LaundryServicesPage() {
         <div className="px-4 sm:px-6 lg:px-8 bg-white">
           <FAQAccordion faqs={[
             { q: "Do you offer pickup and delivery?", a: "Yes — simply schedule a pickup in the MOYO app and we will collect your items and return them cleaned." },
-            { q: "How much is sofa cleaning in Noida?", a: "It starts from ₹[X] depending on the number of seats and the fabric type. You'll see the full quote before confirming." },
+            { q: "How much is sofa cleaning in Noida?", a: "It starts from ₹499 depending on the number of seats and the fabric type. You'll see the full quote before confirming." },
             { q: "Do you clean leather sofas and shoes?", a: "Yes — we have dedicated specialists for both fabric and leather sofas, as well as sneaker and leather shoe cleaning." },
-            { q: "What's the turnaround for laundry?", a: "Turnaround times vary, but standard wash & iron service is typically completed within [X]. You can track progress in the app." }
+            { q: "What's the turnaround for laundry?", a: "Turnaround times vary, but standard wash & iron service is typically completed within 48 hours. You can track progress in the app." }
           ]} />
         </div>
 

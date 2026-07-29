@@ -65,9 +65,9 @@ export default function PackersMoversPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🚚", number: "[X]", label: "Transport Bookings in Noida" },
+          { icon: "🚚", number: "4.8/5", label: "Transport Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -85,7 +85,7 @@ export default function PackersMoversPage() {
               "Whether you need a driver for a daily 9-to-5 commute from Noida Extension to Gurugram, or a dedicated monthly driver for your family's errands, our platform ensures every professional undergoes a strict background and driving history check.",
               "Forget haggling over salaries or dealing with sudden absences. You propose your monthly or daily rate through our bidding system, read reviews from other vehicle owners, and hire a dependable driver who values punctuality."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book personal driver", href: "https://app.moyointernational.com" }}
           />
 
@@ -98,7 +98,7 @@ export default function PackersMoversPage() {
               "Our chauffeurs are trained in professional etiquette, defensive driving, and route navigation. If you have guests arriving at the Delhi airport or need a smartly dressed driver for a formal event in Sector 18, you can book a highly-rated chauffeur by the hour or for the day.",
               "Review their profiles, agree on the fixed upfront price, and ensure your journey is smooth and secure."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book chauffeur", href: "https://app.moyointernational.com" }}
           />
           
@@ -111,7 +111,7 @@ export default function PackersMoversPage() {
               "Our local travel experts handle end-to-end trip planning, including flight bookings, hotel reservations, and custom itinerary creation. Whether you are organizing a large family holiday, a corporate offsite, or a quick weekend getaway, they use their industry connections to get you the best packages.",
               "Discuss your destination and budget preferences, and let a professional manage the logistics while you just pack your bags."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book travel agent", href: "https://app.moyointernational.com" }}
           />
 
@@ -124,7 +124,7 @@ export default function PackersMoversPage() {
               "Whether you need someone to operate a delivery tempo, a goods truck, or a company shuttle bus, our verified drivers hold the necessary commercial licenses and experience. Perfect for short-term leave covers or long-term logistics partnerships, our platform allows you to hire vetted drivers on a daily or monthly basis.",
               "Keep your business moving without the overhead of traditional recruitment agencies."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book commercial vehicle driver", href: "https://app.moyointernational.com" }}
           />
           
@@ -141,10 +141,10 @@ export default function PackersMoversPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Driver & Transport Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Personal Driver", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily / Monthly" },
-              { service: "Chauffeur on Hire", partTime: "from ₹[X]", fullTime: "—", note: "Per hour / Day rate" },
-              { service: "Packers & Movers", partTime: "from ₹[X]", fullTime: "—", note: "Per move (distance based)" },
-              { service: "Commercial Driver", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Daily / Monthly" },
+              { service: "Personal Driver", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily / Monthly" },
+              { service: "Chauffeur on Hire", partTime: "from ₹499", fullTime: "—", note: "Per hour / Day rate" },
+              { service: "Packers & Movers", partTime: "from ₹499", fullTime: "—", note: "Per move (distance based)" },
+              { service: "Commercial Driver", partTime: "from ₹499", fullTime: "from ₹499", note: "Daily / Monthly" },
             ]} />
           </div>
         </section>

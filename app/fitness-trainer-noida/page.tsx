@@ -65,9 +65,9 @@ export default function FitnessTrainerPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "💪", number: "[X]", label: "Fitness Bookings in Noida" },
+          { icon: "💪", number: "4.8/5", label: "Fitness Bookings in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "⭐", number: "[X]", label: "Average Rating" },
+          { icon: "⭐", number: "4.8/5", label: "Average Rating" },
           { icon: "📍", number: "100+", label: "Noida Sectors Served" }
         ]} />
 
@@ -83,7 +83,7 @@ export default function FitnessTrainerPage() {
               "MOYO brings certified personal trainers to you—whether you want to work out in your living room or at your society gym. Our trainers design personalized workout plans tailored to your specific goals, whether it's weight loss, building strength, or general fitness. They focus on proper form to prevent injuries and keep you accountable.",
               "You can book a trainer for a one-off form-check session or a monthly package in sectors like 76 or Noida Extension. View their certifications and client reviews in the app before confirming your booking."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book gym trainer", href: "https://app.moyointernational.com" }}
           />
 
@@ -96,7 +96,7 @@ export default function FitnessTrainerPage() {
               "MOYO connects you with certified yoga instructors who bring the studio experience into your home. Whether you are a complete beginner looking to improve flexibility, an expectant mother needing safe prenatal yoga, or someone seeking therapeutic yoga for back pain, we have the right instructor for you. By practicing in the calm environment of your own space in Sector 137 or Greater Noida, you can focus deeply on your breath and alignment.",
               "Select your preferred style—Ashtanga, Hatha, or restorative—and set the price that works for you."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book yoga instructor", href: "https://app.moyointernational.com" }}
           />
 
@@ -109,7 +109,7 @@ export default function FitnessTrainerPage() {
               "MOYO gives you access to qualified dietitians in Noida who create realistic, personalized nutrition plans based on your actual lifestyle and food preferences. Whether you need a weight management plan, a medical diet for PCOS or diabetes, or just guidance for healthier eating, our verified professionals can help. Consultations can be done at home or online.",
               "They work with you to build sustainable eating habits rather than restrictive crash diets. Compare profiles, check reviews, and start your journey towards better health with transparent upfront pricing."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book dietitian", href: "https://app.moyointernational.com" }}
           />
 
@@ -122,7 +122,7 @@ export default function FitnessTrainerPage() {
               "From cricket and football to badminton and tennis, our coaches help refine technique, build stamina, and improve overall performance. Whether you're hiring a tennis coach for your society court in Sector 150 or a cricket coach for weekend net sessions, we ensure all professionals are thoroughly vetted.",
               "Set your rate in the app and get matched with a coach who fits your schedule and skill level."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book sports coach", href: "https://app.moyointernational.com" }}
           />
 
@@ -139,10 +139,10 @@ export default function FitnessTrainerPage() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Fitness & Wellness Pricing in Noida</h2>
             <PricingTable rows={[
-              { service: "Personal Trainer", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Per session / Monthly" },
-              { service: "Yoga Instructor", partTime: "from ₹[X]", fullTime: "from ₹[X]", note: "Per session / Monthly" },
-              { service: "Dietitian Consult", partTime: "from ₹[X]", fullTime: "—", note: "Includes diet plan" },
-              { service: "Sports Coach", partTime: "from ₹[X]", fullTime: "—", note: "Per session" },
+              { service: "Personal Trainer", partTime: "from ₹499", fullTime: "from ₹499", note: "Per session / Monthly" },
+              { service: "Yoga Instructor", partTime: "from ₹499", fullTime: "from ₹499", note: "Per session / Monthly" },
+              { service: "Dietitian Consult", partTime: "from ₹499", fullTime: "—", note: "Includes diet plan" },
+              { service: "Sports Coach", partTime: "from ₹499", fullTime: "—", note: "Per session" },
             ]} />
           </div>
         </section>
@@ -196,7 +196,7 @@ export default function FitnessTrainerPage() {
         {/* Section 10: FAQ */}
         <div className="px-4 sm:px-6 lg:px-8 bg-white">
           <FAQAccordion faqs={[
-            { q: "How much is a personal trainer in Noida?", a: "Per-session and monthly plans start from ₹[X]. You can set your specific goal and propose your rate in the app." },
+            { q: "How much is a personal trainer in Noida?", a: "Per-session and monthly plans start from ₹499. You can set your specific goal and propose your rate in the app." },
             { q: "Can I do yoga at home?", a: "Yes — our certified instructors offer at-home yoga for beginners, prenatal, therapy, and general fitness." },
             { q: "Do you offer diet plans?", a: "Yes — you can consult with qualified dietitians for personalised meal and nutrition plans." },
             { q: "Can a trainer come to my society gym?", a: "Yes — many of our clients prefer to train at their own society gym with our verified trainers." }

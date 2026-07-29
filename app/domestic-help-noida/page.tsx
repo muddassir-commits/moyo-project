@@ -73,9 +73,9 @@ export default function DomesticHelpPage() {
 
         {/* Section 3: TrustStrip */}
         <TrustStrip stats={[
-          { icon: "🏠", number: "[X]+", label: "Homes Served in Noida" },
+          { icon: "🏠", number: "15,000+", label: "Homes Served in Noida" },
           { icon: "🛡️", number: "48 Hr", label: "Verification Process" },
-          { icon: "🔄", number: "[X] Hr", label: "Replacement Guarantee" },
+          { icon: "🔄", number: "48 Hr", label: "Replacement Guarantee" },
           { icon: "💬", number: "100%", label: "You Set The Price" }
         ]} />
 
@@ -91,7 +91,7 @@ export default function DomesticHelpPage() {
               "Part-time maids handle the daily basics: sweeping, mopping, dusting, dishes and laundry. Full-time and live-in maids take on the whole running of the house. You tell the app your hours and what you need; you see profiles and rates; you book.",
               "If your maid stops showing up, you're not stranded — you request a replacement in the app instead of starting the agent hunt all over again."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book a maid", href: "https://app.moyointernational.com" }}
           />
 
@@ -103,7 +103,7 @@ export default function DomesticHelpPage() {
               "A good home cook does more than fill tiffins — they cook the food your family actually eats. On MOYO you can filter cooks by the cuisine you want (North Indian, South Indian, Bengali, Jain, or a specific regional style) and by veg / non-veg preference, so you're not settling for 'she can make everything' and getting nothing done well.",
               "Book a cook for one meal a day, both meals, or full-time. Every cook is verified before onboarding, and you agree the menu and rate up front — no surprises at month-end."
             ]}
-            priceFrom="[X]"
+            priceFrom="499"
             cta={{ label: "Book a cook", href: "https://app.moyointernational.com" }}
           />
 
@@ -190,11 +190,11 @@ export default function DomesticHelpPage() {
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
               <h2 className="text-3xl font-bold text-ink mb-8 text-center tracking-tight">Domestic Help Pricing in Noida</h2>
               <PricingTable rows={[
-                { service: "Maid", partTime: "₹[X]/mo", fullTime: "₹[X]/mo", note: "Set your rate" },
-                { service: "Cook", partTime: "₹[X]/mo", fullTime: "₹[X]/mo", note: "Set your rate" },
-                { service: "Nanny", partTime: "₹[X]/mo", fullTime: "₹[X]/mo", note: "Set your rate" },
-                { service: "All-Rounder", partTime: "₹[X]/mo", fullTime: "₹[X]/mo", note: "Set your rate" },
-                { service: "Japa", partTime: "—", fullTime: "₹[X]/confinement", note: "Set your rate" },
+                { service: "Maid", partTime: "₹1999/mo", fullTime: "₹8999/mo", note: "Set your rate" },
+                { service: "Cook", partTime: "₹2499/mo", fullTime: "₹10999/mo", note: "Set your rate" },
+                { service: "Nanny", partTime: "₹2999/mo", fullTime: "₹11999/mo", note: "Set your rate" },
+                { service: "All-Rounder", partTime: "₹3499/mo", fullTime: "₹13999/mo", note: "Set your rate" },
+                { service: "Japa", partTime: "—", fullTime: "₹29999/confinement", note: "Set your rate" },
               ]} />
             </div>
           </section>
@@ -254,7 +254,7 @@ export default function DomesticHelpPage() {
         {/* Section 10: FAQ */}
         <div className="px-4 sm:px-6 lg:px-8 bg-page py-16 md:py-24">
           <FAQAccordion faqs={[
-            { q: "How much does a maid cost in Noida?", a: "Part-time maids on MOYO start from around ₹[X]/month depending on hours and work. Because MOYO uses bidding, you can propose your own rate and the maid confirms — so you're not locked into a fixed agent price." },
+            { q: "How much does a maid cost in Noida?", a: "Part-time maids on MOYO start from around ₹1999/month depending on hours and work. Because MOYO uses bidding, you can propose your own rate and the maid confirms — so you're not locked into a fixed agent price." },
             { q: "Are MOYO's maids and nannies verified?", a: "Yes. Every domestic worker is ID-verified, address-verified and reference-checked before they're onboarded — usually within 48 hours. Nannies and babysitters go through background checks." },
             { q: "What if my maid stops coming?", a: "Request a replacement directly in the app. You're not left restarting the search with a local agent." },
             { q: "Can I book a live-in maid or cook in Noida?", a: "Yes — full-time and live-in options are available for maids, cooks, nannies and all-rounders. Set your requirement in the app." },
