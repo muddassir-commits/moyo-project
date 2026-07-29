@@ -41,11 +41,13 @@ export function TrustStrip({ stats = [
               </div>
             </div>
           ) : (
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-8 text-center divide-y md:divide-y-0 md:divide-x divide-line">
               {validStats.map((stat, idx) => (
-                <div key={idx} className="flex flex-col items-center gap-3 p-4 rounded-[16px] hover:bg-white hover:shadow-sm transition-all duration-300 ease-expo">
-                  <span className="mb-2" aria-hidden="true">{stat.icon}</span>
-                  <span className="text-4xl md:text-5xl font-extrabold text-ink tracking-tight">
+                <div key={idx} className="flex flex-col items-center gap-3 p-4 hover:-translate-y-1 transition-transform duration-300 ease-expo">
+                  <div className="w-16 h-16 bg-brand-50 rounded-full flex items-center justify-center text-brand mb-2 mx-auto shadow-sm">
+                    {stat.icon}
+                  </div>
+                  <span className="text-4xl md:text-5xl font-extrabold text-brand tracking-tight">
                     <StatCounter value={stat.number} />
                   </span>
                   <span className="text-sm font-semibold text-muted uppercase tracking-widest">{stat.label}</span>

@@ -12,7 +12,7 @@ import { FAQAccordion } from "@/components/ui/FAQAccordion";
 import { LocalBusinessJsonLd } from "@/components/seo/LocalBusinessJsonLd";
 import Link from "next/link";
 import Script from "next/script";
-import { Home as HomeIcon, ShieldCheck, Star, MapPin, Search, HandCoins, UserCheck, Smartphone, IndianRupee, Tag, MapPinned, LayoutGrid, CheckCircle2, Zap, Clock } from "lucide-react";
+import { Home as HomeIcon, ShieldCheck, Star, MapPin, Search, HandCoins, UserCheck, Smartphone, IndianRupee, Tag, MapPinned, LayoutGrid, CheckCircle2, Zap, Clock, Check, X } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
 import { StaggerGroup } from "@/components/motion/StaggerGroup";
 
@@ -93,8 +93,9 @@ export default function Home() {
                 { title: "Live tracking", desc: "Track your professional from dispatch to arrival, in real time.", icon: <MapPinned className="w-6 h-6" /> },
                 { title: "One app, everything", desc: "Maid today, electrician next week, beautician for the wedding. Same account, same trust.", icon: <LayoutGrid className="w-6 h-6" /> }
               ].map((diff, i) => (
-                <div key={i} className="p-8 card-base card-hover">
-                  <div className="w-12 h-12 bg-[#FFF7ED] text-brand rounded-full flex items-center justify-center mb-6 border border-brand/10">
+                <div key={i} className="p-8 card-base card-hover relative overflow-hidden group">
+                  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand to-brand-deep opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="w-12 h-12 bg-brand-50 text-brand rounded-full flex items-center justify-center mb-6 border border-brand/10">
                     {diff.icon}
                   </div>
                   <h3 className="text-xl font-bold text-ink mb-3">{diff.title}</h3>
@@ -113,29 +114,32 @@ export default function Home() {
               <p className="text-lg text-muted max-w-2xl mx-auto">See how we stack up against traditional agents and funded apps in Noida.</p>
             </div>
 
-            <div className="overflow-x-auto rounded-[16px] border border-line shadow-card bg-white">
+            <div className="overflow-x-auto rounded-2xl border border-line shadow-card bg-white mt-8 relative">
               <table className="w-full text-left border-collapse min-w-[700px]">
                 <thead>
                   <tr className="bg-page border-b border-line">
-                    <th className="py-5 px-6 font-semibold text-ink">Feature</th>
-                    <th className="py-5 px-6 font-semibold text-ink text-center">Local Agent</th>
-                    <th className="py-5 px-6 font-semibold text-ink text-center">Funded Apps</th>
-                    <th className="py-5 px-6 font-bold text-brand text-center bg-brand-50/50">MOYO</th>
+                    <th className="py-6 px-6 font-semibold text-ink w-1/4">Feature</th>
+                    <th className="py-6 px-6 font-semibold text-ink text-center w-1/4">Local Agent</th>
+                    <th className="py-6 px-6 font-semibold text-ink text-center w-1/4">Funded Apps</th>
+                    <th className="py-6 px-6 font-bold text-brand text-center bg-brand-50/50 relative border-x border-brand/10 w-1/4">
+                      <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand text-white text-[10px] font-bold uppercase tracking-wider py-1 px-3 rounded-full shadow-sm whitespace-nowrap">Recommended</div>
+                      MOYO
+                    </th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-line">
                   {[
-                    { feature: "Verification", agent: "✗ None", app: "~ Some", moyo: "✓ ID + reference" },
-                    { feature: "Price control", agent: "✗ Agent decides", app: "✗ Fixed high", moyo: "✓ You bid" },
-                    { feature: "Commission", agent: "✗ Both sides", app: "✗ High", moyo: "✓ Fair to workers" },
-                    { feature: "Replacement", agent: "✗ Start over", app: "~ Slow", moyo: "✓ In-app" },
-                    { feature: "Range", agent: "✗ Narrow", app: "~ Limited", moyo: "✓ 170+ services" }
+                    { feature: "Verification", agent: <><X className="inline w-5 h-5 text-red-400 mr-1.5 mb-0.5" /> None</>, app: <span className="text-amber-600">~ Some</span>, moyo: <><Check className="inline w-5 h-5 text-brand mr-1.5 mb-0.5" /> ID + reference</> },
+                    { feature: "Price control", agent: <><X className="inline w-5 h-5 text-red-400 mr-1.5 mb-0.5" /> Agent decides</>, app: <><X className="inline w-5 h-5 text-red-400 mr-1.5 mb-0.5" /> Fixed high</>, moyo: <><Check className="inline w-5 h-5 text-brand mr-1.5 mb-0.5" /> You bid</> },
+                    { feature: "Commission", agent: <><X className="inline w-5 h-5 text-red-400 mr-1.5 mb-0.5" /> Both sides</>, app: <><X className="inline w-5 h-5 text-red-400 mr-1.5 mb-0.5" /> High</>, moyo: <><Check className="inline w-5 h-5 text-brand mr-1.5 mb-0.5" /> Fair to workers</> },
+                    { feature: "Replacement", agent: <><X className="inline w-5 h-5 text-red-400 mr-1.5 mb-0.5" /> Start over</>, app: <span className="text-amber-600">~ Slow</span>, moyo: <><Check className="inline w-5 h-5 text-brand mr-1.5 mb-0.5" /> In-app</> },
+                    { feature: "Range", agent: <><X className="inline w-5 h-5 text-red-400 mr-1.5 mb-0.5" /> Narrow</>, app: <span className="text-amber-600">~ Limited</span>, moyo: <><Check className="inline w-5 h-5 text-brand mr-1.5 mb-0.5" /> 170+ services</> }
                   ].map((row, i) => (
                     <tr key={i} className="hover:bg-page transition-colors group">
-                      <td className="py-4 px-6 font-medium text-ink">{row.feature}</td>
-                      <td className="py-4 px-6 text-muted text-center">{row.agent}</td>
-                      <td className="py-4 px-6 text-muted text-center">{row.app}</td>
-                      <td className="py-4 px-6 font-semibold text-brand-deep text-center bg-brand-50/30">{row.moyo}</td>
+                      <td className="py-5 px-6 font-medium text-ink">{row.feature}</td>
+                      <td className="py-5 px-6 text-muted text-center font-medium">{row.agent}</td>
+                      <td className="py-5 px-6 text-muted text-center font-medium">{row.app}</td>
+                      <td className="py-5 px-6 font-semibold text-brand-deep text-center bg-brand-50/40 border-x border-brand/10">{row.moyo}</td>
                     </tr>
                   ))}
                 </tbody>

@@ -21,27 +21,25 @@ export function CategoryGrid() {
                 href={pillar.href}
                 className="group flex flex-col flex-1 card-base card-hover overflow-hidden"
               >
-                <div className="aspect-video relative bg-brand-50 w-full overflow-hidden flex items-center justify-center">
-                   <div className="absolute inset-0 bg-gradient-to-br from-brand/10 to-amber/20" />
-                   {/* Category Image */}
-                   <div className="relative z-10 w-[72px] h-[72px] md:w-20 md:h-20 bg-brand-50 rounded-full flex items-center justify-center p-[14px] group-hover:scale-110 transition-transform duration-500 ease-expo shadow-sm border border-brand/10">
-                     {pillar.image && (
-                       <Image 
-                         src={pillar.image} 
-                         alt={pillar.name}
-                         width={80}
-                         height={80}
-                         className="w-full h-full object-contain"
-                       />
-                     )}
-                   </div>
-                </div>
-                <div className="p-6 flex flex-col flex-grow">
-                  <h3 className="font-semibold text-lg text-ink group-hover:text-brand transition-colors mb-4 line-clamp-2">
+                <div className="p-6 flex flex-col flex-grow relative bg-white z-10">
+                  {/* Category Image */}
+                  <div className="mb-6 w-[72px] h-[72px] bg-brand-50 rounded-full flex items-center justify-center p-[14px] group-hover:scale-110 transition-transform duration-500 ease-expo shadow-sm border border-brand/10 mx-auto">
+                    {pillar.image && (
+                      <Image 
+                        src={pillar.image} 
+                        alt={pillar.name}
+                        width={80}
+                        height={80}
+                        className="w-full h-full object-contain"
+                      />
+                    )}
+                  </div>
+                  
+                  <h3 className="font-bold text-lg text-ink group-hover:text-brand text-center transition-colors mb-4 line-clamp-2">
                     {pillar.name}
                   </h3>
-                  <div className="mt-auto flex items-center justify-between text-sm text-brand-deep font-medium">
-                    {/* Using pillar keyword as anchor logic is handled contextually, but generic text for now */}
+                  
+                  <div className="mt-auto flex items-center justify-center gap-2 text-sm text-brand-deep font-semibold">
                     <span className="capitalize">{pillar.href.replace('/', '').replace(/-/g, ' ')}</span>
                     <span className="group-hover:translate-x-1 transition-transform ease-expo">→</span>
                   </div>
