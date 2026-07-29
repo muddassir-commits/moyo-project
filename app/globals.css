@@ -90,3 +90,19 @@ html, body {
     animation: none !important;
   }
 }
+
+@utility card-base {
+  @apply bg-white border border-line rounded-[16px] shadow-card;
+}
+
+@utility card-hover {
+  @apply hover:-translate-y-1 hover:border-brand-200 hover:shadow-cardHover transition-all duration-300 ease-expo;
+}
+
+@utility btn-primary {
+  @apply bg-gradient-to-r from-brand to-brand-deep text-white rounded-[12px] shadow-sm hover:scale-[1.02] active:scale-[0.97] transition-transform ease-expo;
+}
+
+@utility btn-secondary {
+  @apply bg-white border-2 border-brand text-brand rounded-[12px] hover:bg-brand-50 active:scale-[0.97] transition-all ease-expo;
+}

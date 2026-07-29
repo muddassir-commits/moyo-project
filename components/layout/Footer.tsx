@@ -12,13 +12,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Col 1 */}
           <div className="flex flex-col gap-6">
-            <Image 
-              src="/logo-wide.svg" 
-              alt="MOYO Logo" 
-              width={160} 
-              height={50} 
-              className="w-auto h-10 -ml-2"
-            />
+            <Link href="/" className="inline-block">
+              <span className="font-extrabold text-3xl tracking-tight text-white font-sans">MOYO</span>
+            </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               Noida's premier multi-service marketplace. Connecting you with verified experts for all your home and professional needs.
             </p>

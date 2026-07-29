@@ -34,7 +34,7 @@ export function ServiceBlock({
             ))}
           </div>
 
-          <div className="flex flex-wrap items-center gap-6 mt-8 p-6 bg-white border border-line rounded-[16px] shadow-card hover:shadow-cardHover hover:border-brand-200 transition-all duration-300">
+          <div className="flex flex-wrap items-center gap-6 mt-8 p-6 card-base card-hover">
             {priceFrom && !priceFrom.includes("[X]") ? (
               <div className="flex flex-col">
                 <span className="text-xs text-faint uppercase tracking-wider font-semibold mb-1">Starting From</span>
@@ -52,7 +52,7 @@ export function ServiceBlock({
             <Link 
               href={cta.href}
               title={keyword}
-              className="inline-flex items-center justify-center bg-brand text-white rounded-[12px] min-h-[48px] px-8 font-medium hover:bg-brand-hover transition-all duration-300 ease-expo w-full sm:w-auto"
+              className="inline-flex items-center justify-center btn-primary min-h-[48px] px-8 font-medium w-full sm:w-auto"
             >
               {cta.label}
             </Link>

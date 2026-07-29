@@ -12,7 +12,7 @@ import { FAQAccordion } from "@/components/ui/FAQAccordion";
 import { LocalBusinessJsonLd } from "@/components/seo/LocalBusinessJsonLd";
 import Link from "next/link";
 import Script from "next/script";
-import { Home as HomeIcon, ShieldCheck, Star, MapPin } from "lucide-react";
+import { Home as HomeIcon, ShieldCheck, Star, MapPin, Search, HandCoins, UserCheck, Smartphone, IndianRupee } from "lucide-react";
 import { Reveal } from "@/components/motion/Reveal";
 import { StaggerGroup } from "@/components/motion/StaggerGroup";
 
@@ -46,7 +46,7 @@ export default function Home() {
       <main>
         {/* Section 1: Hero */}
         <Hero 
-          h1="Book Verified Professionals for 170+ Home Services in Noida"
+          h1={<>Book Verified Professionals for <span className="text-brand">170+ Home Services</span> in Noida</>}
           subhead="One app for your whole home — maids, cleaners, electricians, beauticians, tutors and 170+ more. Every professional is ID-verified. And with bidding, you set the price you want to pay."
           trustChips={[
             "✓ 170+ Services",
@@ -80,21 +80,23 @@ export default function Home() {
         <section className="py-16 md:py-24 bg-white">
           <Reveal className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-ink tracking-tight mb-4">The MOYO Difference</h2>
+              <h2 className="text-4xl md:text-[44px] font-bold text-ink tracking-tight mb-4">The MOYO <span className="text-brand">Difference</span></h2>
               <p className="text-lg text-muted max-w-2xl mx-auto">Why homeowners in Noida choose us over local agents and other apps.</p>
             </div>
             
             <StaggerGroup className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
-                { title: "Verified before they reach you", desc: "ID, address & reference checks in 48 hours. Not \"trust me\" from an agent." },
-                { title: "You set the price", desc: "Bidding puts the rate in your hands. Propose what you'll pay; the pro confirms." },
-                { title: "Fixed pricing, shown upfront", desc: "See the full price before you book. No surprises at the door." },
-                { title: "Fair wages = help that stays", desc: "No double commission. Workers keep more, so quality stays high." },
-                { title: "Live tracking", desc: "Track your professional from dispatch to arrival, in real time." },
-                { title: "One app, everything", desc: "Maid today, electrician next week, beautician for the wedding. Same account, same trust." }
+                { title: "Verified before they reach you", desc: "ID, address & reference checks in 48 hours. Not \"trust me\" from an agent.", icon: <UserCheck className="w-6 h-6" /> },
+                { title: "You set the price", desc: "Bidding puts the rate in your hands. Propose what you'll pay; the pro confirms.", icon: <HandCoins className="w-6 h-6" /> },
+                { title: "Fixed pricing, shown upfront", desc: "See the full price before you book. No surprises at the door.", icon: <IndianRupee className="w-6 h-6" /> },
+                { title: "Fair wages = help that stays", desc: "No double commission. Workers keep more, so quality stays high.", icon: <ShieldCheck className="w-6 h-6" /> },
+                { title: "Live tracking", desc: "Track your professional from dispatch to arrival, in real time.", icon: <MapPin className="w-6 h-6" /> },
+                { title: "One app, everything", desc: "Maid today, electrician next week, beautician for the wedding. Same account, same trust.", icon: <Smartphone className="w-6 h-6" /> }
               ].map((diff, i) => (
-                <div key={i} className="p-8 rounded-[16px] bg-page border border-line shadow-card hover:shadow-cardHover transition-all duration-300 ease-expo">
-                  <div className="text-brand text-3xl mb-4">✨</div>
+                <div key={i} className="p-8 card-base card-hover">
+                  <div className="w-12 h-12 bg-[#FFF7ED] text-brand rounded-full flex items-center justify-center mb-6 border border-brand/10">
+                    {diff.icon}
+                  </div>
                   <h3 className="text-xl font-bold text-ink mb-3">{diff.title}</h3>
                   <p className="text-muted leading-relaxed">{diff.desc}</p>
                 </div>
@@ -107,7 +109,7 @@ export default function Home() {
         <section className="py-16 md:py-24 bg-section-alt">
           <Reveal className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-ink tracking-tight mb-4">MOYO vs The Alternatives</h2>
+              <h2 className="text-4xl md:text-[44px] font-bold text-ink tracking-tight mb-4">MOYO vs The <span className="text-brand">Alternatives</span></h2>
               <p className="text-lg text-muted max-w-2xl mx-auto">See how we stack up against traditional agents and funded apps in Noida.</p>
             </div>
 
@@ -175,13 +177,13 @@ export default function Home() {
         {/* Section 9: Earn with MOYO */}
         <section className="py-16 bg-brand-50 border-y border-brand-200">
           <Reveal className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center gap-6">
-            <h2 className="text-2xl md:text-3xl font-bold text-ink tracking-tight">Are you a skilled professional?</h2>
+            <h2 className="text-4xl md:text-[44px] font-bold text-ink tracking-tight mb-4">Are you a skilled <span className="text-brand">professional?</span></h2>
             <p className="text-lg text-muted">
               Earn on your terms with MOYO — fair pay, no commission trap, work near you in Noida.
             </p>
             <Link 
               href="/become-a-provider"
-              className="inline-flex items-center justify-center bg-brand text-white rounded-[12px] min-h-[48px] px-8 font-medium hover:bg-brand-hover transition-all duration-300 shadow-card hover:shadow-cardHover"
+              className="inline-flex items-center justify-center btn-primary min-h-[48px] px-8 font-medium mt-2"
             >
               Become a Provider
             </Link>

@@ -38,7 +38,7 @@ export function Hero({
           
           <HeroStagger className="flex flex-col gap-6 max-w-2xl">
             <HeroStaggerItem>
-              <h1 className="text-[44px] leading-[1.1] md:text-[52px] font-bold text-ink tracking-tight">
+              <h1 className="text-5xl md:text-[72px] font-extrabold text-ink tracking-tight leading-[1.1]">
                 {h1}
               </h1>
             </HeroStaggerItem>
@@ -60,7 +60,7 @@ export function Hero({
             <HeroStaggerItem className="flex flex-col sm:flex-row gap-4 mt-4">
               <Link 
                 href={primaryCta.href}
-                className="inline-flex items-center justify-center bg-brand text-white rounded-[12px] min-h-[44px] px-8 font-medium hover:bg-brand-hover transition-all duration-300 ease-expo shadow-card hover:shadow-cardHover hover:-translate-y-[2px]"
+                className="inline-flex items-center justify-center btn-primary min-h-[44px] px-8 font-medium"
               >
                 {primaryCta.label}
               </Link>
@@ -68,7 +68,7 @@ export function Hero({
                 href={secondaryCta.href}
                 target={secondaryCta.href.startsWith("http") ? "_blank" : undefined}
                 rel={secondaryCta.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="inline-flex items-center justify-center bg-transparent border-[1.5px] border-brand text-brand-deep rounded-[12px] min-h-[44px] px-8 font-medium hover:bg-brand-50 transition-colors"
+                className="inline-flex items-center justify-center btn-secondary min-h-[44px] px-8 font-medium"
               >
                 {secondaryCta.label}
               </Link>

@@ -158,17 +158,17 @@ export default function ServicesHub() {
                 <Link 
                   key={idx} 
                   href={cat.href}
-                  className="group flex flex-col bg-white rounded-[16px] border border-line p-8 shadow-card hover:shadow-cardHover hover:border-brand-200 hover:-translate-y-1 transition-all duration-300 ease-expo h-full"
+                  className="group flex flex-col card-base card-hover p-8 h-full"
                 >
                   <div className="flex items-center gap-5 mb-6">
-                    <div className="w-16 h-16 bg-[#FFF7ED] rounded-full flex shrink-0 items-center justify-center p-3 border border-brand/10 group-hover:scale-110 transition-transform duration-500 ease-expo">
+                    <div className="w-20 h-20 bg-[#FFF7ED] rounded-full flex shrink-0 items-center justify-center p-[14px] border border-brand/10 group-hover:scale-110 transition-transform duration-500 ease-expo">
                       {cat.image && (
                         <Image 
                           src={cat.image} 
                           alt={cat.name}
-                          width={48}
-                          height={48}
-                          className="object-contain drop-shadow-sm"
+                          width={52}
+                          height={52}
+                          className="object-contain"
                         />
                       )}
                     </div>
