@@ -31,14 +31,14 @@ export function StickyMobileCTA() {
       {!CONTACT.whatsapp.includes("[") && (
         <Link 
           href={`https://wa.me/${CONTACT.whatsapp.replace(/[^+\d]/g, "")}`}
-          className="flex-1 flex items-center justify-center gap-2 bg-transparent border-[1.5px] border-brand text-brand-deep rounded-[12px] min-h-[44px] font-medium hover:bg-brand-50 transition-colors"
+          className="flex-1 flex items-center justify-center gap-2 btn-secondary min-h-[44px] font-medium"
         >
           WhatsApp
         </Link>
       )}
       <Link 
         href="https://app.moyointernational.com"
-        className="flex-[2] flex items-center justify-center bg-brand text-white rounded-[12px] min-h-[44px] font-medium hover:bg-brand-hover transition-colors"
+        className="flex-[2] flex items-center justify-center btn-primary min-h-[44px] font-medium"
       >
         Download App
       </Link>
