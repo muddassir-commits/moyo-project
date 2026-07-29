@@ -1,4 +1,6 @@
 import { Download, Search, CalendarClock, UserCheck, Star } from "lucide-react";
+import { StaggerGroup, StaggerItem } from "@/components/motion/StaggerGroup";
+import Link from "next/link";
 
 const STEPS = [
   { icon: <Download className="w-8 h-8" />, title: "Download", desc: "Get the Moyo app and create your account in seconds." },
@@ -17,19 +19,31 @@ export function StepsHowItWorks() {
           <p className="text-lg text-muted max-w-2xl mx-auto">Your journey to getting things done seamlessly.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-12 md:gap-6 relative">
+        <StaggerGroup className="grid grid-cols-1 md:grid-cols-5 gap-12 md:gap-6 relative z-10">
           {/* Connecting line for desktop */}
-          <div className="hidden md:block absolute top-[40px] left-[10%] right-[10%] h-[2px] bg-brand-200 z-0" />
+          <div className="hidden md:block absolute top-[40px] left-[10%] right-[10%] border-t-2 border-dashed border-brand-200 z-0" />
           
           {STEPS.map((step, idx) => (
-            <div key={idx} className="relative z-10 flex flex-col items-center text-center">
-              <div className="w-20 h-20 rounded-full bg-[#FFF7ED] flex items-center justify-center mb-6 shadow-cardHover text-brand transform hover:scale-110 transition-transform duration-300 ease-expo">
+            <StaggerItem key={idx} className="relative z-10 flex flex-col items-center text-center group">
+              <span className="absolute top-0 right-0 md:-mr-4 -mt-6 text-[120px] font-black text-brand/5 select-none leading-none z-[-1] transition-colors duration-500 group-hover:text-brand/10">
+                {idx + 1}
+              </span>
+              <div className="w-20 h-20 rounded-full bg-[#FFF7ED] flex items-center justify-center mb-6 shadow-cardHover text-brand transform group-hover:scale-110 group-hover:-translate-y-1 transition-all duration-300 ease-expo">
                 {step.icon}
               </div>
               <h3 className="text-xl font-bold text-ink mb-3">{step.title}</h3>
               <p className="text-muted text-sm leading-relaxed max-w-[200px]">{step.desc}</p>
-            </div>
+            </StaggerItem>
           ))}
+        </StaggerGroup>
+        
+        <div className="mt-16 flex justify-center relative z-20">
+          <Link 
+            href="https://app.moyointernational.com"
+            className="inline-flex items-center justify-center btn-primary min-h-[48px] px-8 font-medium shadow-cardHover hover:-translate-y-1 transition-all duration-300 ease-expo"
+          >
+            Book Your First Service
+          </Link>
         </div>
       </div>
     </section>

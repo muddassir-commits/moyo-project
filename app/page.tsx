@@ -157,19 +157,22 @@ export default function Home() {
             <h2 className="text-2xl font-bold text-ink mb-8">Popular in Noida</h2>
             <StaggerGroup className="flex flex-wrap gap-4">
               {[
-                { name: "Maid", href: "/domestic-help-noida" },
-                { name: "AC Repair", href: "/home-repair-noida" },
-                { name: "Salon at Home", href: "/beauty-services-noida" },
-                { name: "Deep Cleaning", href: "/home-cleaning-noida" },
-                { name: "Electrician", href: "/home-repair-noida" },
-                { name: "Nurse at Home", href: "/home-nursing-noida" },
+                { name: "Maid", href: "/domestic-help-noida", icon: <HomeIcon className="w-5 h-5 text-brand" /> },
+                { name: "AC Repair", href: "/home-repair-noida", icon: <Zap className="w-5 h-5 text-brand" /> },
+                { name: "Salon at Home", href: "/beauty-services-noida", icon: <Star className="w-5 h-5 text-brand" /> },
+                { name: "Deep Cleaning", href: "/home-cleaning-noida", icon: <ShieldCheck className="w-5 h-5 text-brand" /> },
+                { name: "Electrician", href: "/home-repair-noida", icon: <Zap className="w-5 h-5 text-brand" /> },
+                { name: "Nurse at Home", href: "/home-nursing-noida", icon: <UserCheck className="w-5 h-5 text-brand" /> },
               ].map((service, i) => (
                 <Link
                   key={i}
                   href={service.href}
-                  className="px-6 py-3 rounded-full border border-line bg-page text-ink font-medium hover:border-brand hover:text-brand transition-colors duration-300 ease-expo shadow-sm hover:shadow"
+                  className="flex items-center gap-3 p-2 pr-6 bg-white border border-line rounded-xl shadow-sm hover:shadow-cardHover hover:border-brand-200 hover:-translate-y-0.5 transition-all duration-300 ease-expo group"
                 >
-                  {service.name}
+                  <div className="w-10 h-10 rounded-lg bg-brand-50 flex items-center justify-center group-hover:scale-110 transition-transform">
+                    {service.icon}
+                  </div>
+                  <span className="font-semibold text-ink group-hover:text-brand transition-colors">{service.name}</span>
                 </Link>
               ))}
             </StaggerGroup>
