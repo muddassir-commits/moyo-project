@@ -18,9 +18,25 @@ export const PILLARS = [
 export const MAIN_NAV = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services", children: PILLARS },
+  { 
+    name: "My Account", 
+    href: "/dashboard", 
+    children: [
+      { name: "My Bookings", href: "/dashboard" },
+      { name: "MOYO Wallet", href: "/wallet" },
+      { name: "MOYO Plus", href: "/plus" },
+      { name: "Refer & Earn", href: "/referral" },
+    ] 
+  },
+  { 
+    name: "For Partners", 
+    href: "/provider-dashboard", 
+    children: [
+      { name: "Partner Dashboard", href: "/provider-dashboard" },
+      { name: "Complete KYC", href: "/provider-dashboard/kyc" },
+    ] 
+  },
   { name: "About", href: "/about" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contact", href: "/contact" },
 ];
 
 export const LEGAL_LINKS = [
