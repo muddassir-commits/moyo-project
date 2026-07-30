@@ -8,7 +8,7 @@ import { MAIN_NAV } from "@/config/navigation";
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [openMenu, setOpenMenu] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
 
@@ -40,15 +40,15 @@ export function Header() {
               {item.children ? (
                 <div 
                   className="flex items-center gap-1 cursor-pointer text-muted hover:text-brand transition-colors py-2"
-                  onMouseEnter={() => setIsServicesOpen(true)}
-                  onMouseLeave={() => setIsServicesOpen(false)}
+                  onMouseEnter={() => setOpenMenu(item.name)}
+                  onMouseLeave={() => setOpenMenu(null)}
                 >
                   <Link href={item.href}>{item.name}</Link>
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
                   
-                  {isServicesOpen && (
+                  {openMenu === item.name && (
                     <div className="absolute top-full left-0 w-72 bg-white shadow-cardHover rounded-2xl border border-line p-2 grid gap-1 mt-2 before:absolute before:-top-4 before:left-0 before:w-full before:h-4">
                       {item.children.map(child => (
                         <Link 
